@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>nikivi.dropbox.upload</string>
+	<key>category</key>
+	<string>Mine</string>
+	<key>connections</key>
+	<dict>
+		<key>1638A3EC-E376-46A0-87F9-62D96B9B67C9</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>5560476A-AECF-451B-A0AF-AC5599BE0E29</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>35D00EDF-50E8-40D2-BCDA-A28F93E41215</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>5FA10E0B-B412-45D6-8D23-3C44DD20D0F8</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>496C289A-4374-4E26-A15C-C0D0DE8668BD</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>F355962D-868F-432C-96F9-A18109CB103C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>5560476A-AECF-451B-A0AF-AC5599BE0E29</key>
+		<array/>
+		<key>598A7C16-509C-4DC8-8BD7-620699E218A3</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>918695BE-A074-46B8-9F19-CC2D62F7B38D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>5FA10E0B-B412-45D6-8D23-3C44DD20D0F8</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>598A7C16-509C-4DC8-8BD7-620699E218A3</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>918695BE-A074-46B8-9F19-CC2D62F7B38D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1638A3EC-E376-46A0-87F9-62D96B9B67C9</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>94E11145-B41D-4498-9E27-0F76DD092F8E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>DAB5F3BF-8B24-4A51-970D-27E527EB05A8</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>96400A8C-F3C5-4855-9A82-A2746062C23D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>496C289A-4374-4E26-A15C-C0D0DE8668BD</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>6B460B4F-AE5C-4E82-9F96-DD7A5847DBE4</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Trash</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>A3A99DB0-F5E0-4797-896A-40F3BD4DE97F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CF0C6BC4-15EF-4874-8509-3A5D4E7DCCBD</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>CF0C6BC4-15EF-4874-8509-3A5D4E7DCCBD</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>96400A8C-F3C5-4855-9A82-A2746062C23D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>DAB5F3BF-8B24-4A51-970D-27E527EB05A8</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>851614DC-D34D-4330-BEBA-32DA10941556</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>F09B6ED5-4D5F-40FE-AB9D-55466BB66EC9</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>F355962D-868F-432C-96F9-A18109CB103C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>FE935C16-B805-4313-A5BC-DAF024090BAC</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>FE935C16-B805-4313-A5BC-DAF024090BAC</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>94E11145-B41D-4498-9E27-0F76DD092F8E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Nikita Voloboev</string>
+	<key>description</key>
+	<string>Upoad and share files with Dropbox</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Dropbox Upload</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>5560476A-AECF-451B-A0AF-AC5599BE0E29</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>mv "$1" ~/Dropbox/Shares
+
+pathToFile="$(basename "$1")"
+
+# This script must be placed in ~/Dropbox/Scripts: 
+# https://github.com/andreafabrizi/Dropbox-Uploader/blob/master/dropbox_uploader.sh
+
+# cd to the folder
+cd ~/Dropbox/Scripts
+
+# Run the script
+./upload.sh share Shares/"$pathToFile"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>5FA10E0B-B412-45D6-8D23-3C44DD20D0F8</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string># THESE VARIABLES MUST BE SET. SEE THE ONEUPDATER README FOR AN EXPLANATION OF EACH.
+readonly remote_info_plist="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/dropbox-upload/workflow/info.plist"
+readonly workflow_url="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/dropbox-upload/Dropbox%20Upload.alfredworkflow"
+readonly download_type='direct'
+readonly frequency_check='7'
+
+# FROM HERE ON, CODE SHOULD BE LEFT UNTOUCHED!
+function abort {
+  echo "${1}" &gt;&amp;2
+  exit 1
+}
+
+function url_exists {
+  curl --silent --location --output /dev/null --fail --range 0-0 "${1}"
+}
+
+function notification {
+  readonly local notificator="$(find . -type d -name 'Notificator.app')"
+  if [[ -n "${notificator}" ]]; then
+    "${notificator}/Contents/Resources/Scripts/notificator" --message "${1}" --title "${alfred_workflow_name}" --subtitle 'A new version is available'
+    return
+  fi
+
+  readonly local terminal_notifier="$(find . -type f -name 'terminal-notifier')"
+  if [[ -n "${terminal_notifier}" ]]; then
+    "${terminal_notifier}" -title "${alfred_workflow_name}" -subtitle 'A new version is available' -message "${1}"
+    return
+  fi
+
+  osascript -e "display notification \"${1}\" with title \"${alfred_workflow_name}\" subtitle \"A new version is available\""
+}
+
+# Local sanity checks
+readonly local_info_plist='info.plist'
+readonly local_version="$(/usr/libexec/PlistBuddy -c 'print version' "${local_info_plist}")"
+
+[[ -n "${local_version}" ]] || abort 'You need to set a workflow version in the configuration sheet.'
+[[ "${download_type}" =~ ^(direct|page|github_release)$ ]] || abort "'download_type' (${download_type}) needs to be one of 'direct', 'page', or 'github_release'."
+[[ "${frequency_check}" =~ ^[0-9]+$ ]] || abort "'frequency_check' (${frequency_check}) needs to be a number."
+
+# Check for updates
+if [[ $(find "${local_info_plist}" -mtime +"${frequency_check}"d) ]]; then
+  if ! url_exists "${remote_info_plist}"; then abort "'remote_info_plist' (${remote_info_plist}) appears to not be reachable."; fi # Remote sanity check
+
+  readonly tmp_file="$(mktemp)"
+  curl --silent --location --output "${tmp_file}" "${remote_info_plist}"
+  readonly remote_version="$(/usr/libexec/PlistBuddy -c 'print version' "${tmp_file}")"
+
+  if [[ "${local_version}" == "${remote_version}" ]]; then
+    touch "${local_info_plist}" # Reset timer by touching local file
+    exit 0
+  fi
+
+  if [[ "${download_type}" == 'page' ]]; then
+    notification 'Opening download page…'
+    open "${workflow_url}"
+    exit 0
+  fi
+
+  download_url="$([[ "${download_type}" == 'github_release' ]] &amp;&amp; curl --silent "https://api.github.com/repos/${workflow_url}/releases/latest" | grep 'browser_download_url' | head -1 | sed -E 's/.*browser_download_url": "(.*)"/\1/' || echo "${workflow_url}")"
+
+  if url_exists "${download_url}"; then
+    notification 'Downloading and installing…'
+    curl --silent --location --output "${HOME}/Downloads/${alfred_workflow_name}.alfredworkflow" "${download_url}"
+    open "${HOME}/Downloads/${alfred_workflow_name}.alfredworkflow"
+  else
+    abort "'workflow_url' (${download_url}) appears to not be reachable."
+  fi
+fi</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>67EF0499-965F-41CE-BA8C-857DEE715B3C</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>acceptsmulti</key>
+				<false/>
+				<key>filetypes</key>
+				<array/>
+				<key>name</key>
+				<string>Dropbox share</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.action</string>
+			<key>uid</key>
+			<string>35D00EDF-50E8-40D2-BCDA-A28F93E41215</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>&gt; Share link:</string>
+				<key>replacestring</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.replace</string>
+			<key>uid</key>
+			<string>598A7C16-509C-4DC8-8BD7-620699E218A3</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.transform</string>
+			<key>uid</key>
+			<string>918695BE-A074-46B8-9F19-CC2D62F7B38D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>dl=0</string>
+				<key>replacestring</key>
+				<string>dl=1</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.replace</string>
+			<key>uid</key>
+			<string>1638A3EC-E376-46A0-87F9-62D96B9B67C9</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>dshares</string>
+				<key>queuedelaycustom</key>
+				<integer>1</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>IFS=$'\n'
+
+files=$(ls -dtc ${HOME}/Dropbox/Shares/* | grep -i ".*{query}.*" | perl -MHTML::Entities -CS -pe'$_ = encode_entities($_, q{&amp;&lt;&gt;"'\''})')
+
+echo "&lt;?xml version='1.0'?&gt;&lt;items&gt;"
+for file in ${files}; do
+  echo "&lt;item uuid='file' arg='${file}' type='file'&gt;"
+  echo "&lt;title&gt;$(basename ${file})&lt;/title&gt;"
+  echo "&lt;subtitle&gt;${file}&lt;/subtitle&gt;"
+  echo "&lt;icon type='fileicon'&gt;${file}&lt;/icon&gt;"
+  echo "&lt;/item&gt;"
+done
+echo "&lt;/items&gt;"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Search ~/Dropbox/Shares</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>96400A8C-F3C5-4855-9A82-A2746062C23D</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>triggerid</key>
+				<string>dropbox</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>A3A99DB0-F5E0-4797-896A-40F3BD4DE97F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>851614DC-D34D-4330-BEBA-32DA10941556</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string># This script must be placed in ~/Dropbox/Scripts: 
+# https://github.com/andreafabrizi/Dropbox-Uploader/blob/master/dropbox_uploader.sh
+
+# cd to the folder
+cd ~/Dropbox/Scripts
+
+# Run the script
+./upload.sh share "$1"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>F355962D-868F-432C-96F9-A18109CB103C</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>json</key>
+				<string>{
+  "alfredworkflow" : {
+    "arg" : "{query}",
+    "config" : {
+      "title" : "",
+      "runningsubtext" : "",
+      "subtext" : ""
+    },
+    "variables" : {
+    }
+  }
+}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.json</string>
+			<key>uid</key>
+			<string>CF0C6BC4-15EF-4874-8509-3A5D4E7DCCBD</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.transform</string>
+			<key>uid</key>
+			<string>94E11145-B41D-4498-9E27-0F76DD092F8E</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>&gt; Share link:</string>
+				<key>replacestring</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.replace</string>
+			<key>uid</key>
+			<string>FE935C16-B805-4313-A5BC-DAF024090BAC</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>/Users/nikivi/Dropbox/</string>
+				<key>replacestring</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.replace</string>
+			<key>uid</key>
+			<string>496C289A-4374-4E26-A15C-C0D0DE8668BD</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>dl=0</string>
+				<key>replacestring</key>
+				<string>dl=1</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.replace</string>
+			<key>uid</key>
+			<string>DAB5F3BF-8B24-4A51-970D-27E527EB05A8</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string></string>
+				<key>title</key>
+				<string>Copied link to share</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>F09B6ED5-4D5F-40FE-AB9D-55466BB66EC9</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>38</integer>
+				<key>script</key>
+				<string>filepath="{query}"
+# replace " with \" to prevent closing the quotes in applescript
+# too early
+filepath=${filepath//\"/'\"'}
+osascript -e 'tell application "Finder" to delete POSIX file "'"$filepath"'"'</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>6B460B4F-AE5C-4E82-9F96-DD7A5847DBE4</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>Details on how to use this workflow are found in the GitHub repo attached to the workflow. 
+
+Double click this workflow in sidebar -&gt; Open website.
+
+Post any issues and feature requests you have there. 💜</string>
+	<key>uidata</key>
+	<dict>
+		<key>1638A3EC-E376-46A0-87F9-62D96B9B67C9</key>
+		<dict>
+			<key>xpos</key>
+			<integer>460</integer>
+			<key>ypos</key>
+			<integer>50</integer>
+		</dict>
+		<key>35D00EDF-50E8-40D2-BCDA-A28F93E41215</key>
+		<dict>
+			<key>xpos</key>
+			<integer>20</integer>
+			<key>ypos</key>
+			<integer>20</integer>
+		</dict>
+		<key>496C289A-4374-4E26-A15C-C0D0DE8668BD</key>
+		<dict>
+			<key>xpos</key>
+			<integer>430</integer>
+			<key>ypos</key>
+			<integer>280</integer>
+		</dict>
+		<key>5560476A-AECF-451B-A0AF-AC5599BE0E29</key>
+		<dict>
+			<key>xpos</key>
+			<integer>540</integer>
+			<key>ypos</key>
+			<integer>20</integer>
+		</dict>
+		<key>598A7C16-509C-4DC8-8BD7-620699E218A3</key>
+		<dict>
+			<key>xpos</key>
+			<integer>320</integer>
+			<key>ypos</key>
+			<integer>50</integer>
+		</dict>
+		<key>5FA10E0B-B412-45D6-8D23-3C44DD20D0F8</key>
+		<dict>
+			<key>note</key>
+			<string>Uses Dropbox Uploader to upload the file</string>
+			<key>xpos</key>
+			<integer>170</integer>
+			<key>ypos</key>
+			<integer>20</integer>
+		</dict>
+		<key>67EF0499-965F-41CE-BA8C-857DEE715B3C</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>12</integer>
+			<key>note</key>
+			<string>OneUpdater</string>
+			<key>xpos</key>
+			<integer>720</integer>
+			<key>ypos</key>
+			<integer>20</integer>
+		</dict>
+		<key>6B460B4F-AE5C-4E82-9F96-DD7A5847DBE4</key>
+		<dict>
+			<key>note</key>
+			<string>Trash</string>
+			<key>xpos</key>
+			<integer>520</integer>
+			<key>ypos</key>
+			<integer>410</integer>
+		</dict>
+		<key>851614DC-D34D-4330-BEBA-32DA10941556</key>
+		<dict>
+			<key>xpos</key>
+			<integer>950</integer>
+			<key>ypos</key>
+			<integer>250</integer>
+		</dict>
+		<key>918695BE-A074-46B8-9F19-CC2D62F7B38D</key>
+		<dict>
+			<key>xpos</key>
+			<integer>390</integer>
+			<key>ypos</key>
+			<integer>50</integer>
+		</dict>
+		<key>94E11145-B41D-4498-9E27-0F76DD092F8E</key>
+		<dict>
+			<key>xpos</key>
+			<integer>780</integer>
+			<key>ypos</key>
+			<integer>280</integer>
+		</dict>
+		<key>96400A8C-F3C5-4855-9A82-A2746062C23D</key>
+		<dict>
+			<key>note</key>
+			<string>Search ~/Dropbox/Shares</string>
+			<key>xpos</key>
+			<integer>230</integer>
+			<key>ypos</key>
+			<integer>250</integer>
+		</dict>
+		<key>A3A99DB0-F5E0-4797-896A-40F3BD4DE97F</key>
+		<dict>
+			<key>xpos</key>
+			<integer>10</integer>
+			<key>ypos</key>
+			<integer>250</integer>
+		</dict>
+		<key>CF0C6BC4-15EF-4874-8509-3A5D4E7DCCBD</key>
+		<dict>
+			<key>xpos</key>
+			<integer>160</integer>
+			<key>ypos</key>
+			<integer>280</integer>
+		</dict>
+		<key>DAB5F3BF-8B24-4A51-970D-27E527EB05A8</key>
+		<dict>
+			<key>xpos</key>
+			<integer>860</integer>
+			<key>ypos</key>
+			<integer>280</integer>
+		</dict>
+		<key>F09B6ED5-4D5F-40FE-AB9D-55466BB66EC9</key>
+		<dict>
+			<key>xpos</key>
+			<integer>950</integer>
+			<key>ypos</key>
+			<integer>380</integer>
+		</dict>
+		<key>F355962D-868F-432C-96F9-A18109CB103C</key>
+		<dict>
+			<key>note</key>
+			<string>Uses Dropbox Uploader to upload the file</string>
+			<key>xpos</key>
+			<integer>520</integer>
+			<key>ypos</key>
+			<integer>250</integer>
+		</dict>
+		<key>FE935C16-B805-4313-A5BC-DAF024090BAC</key>
+		<dict>
+			<key>xpos</key>
+			<integer>700</integer>
+			<key>ypos</key>
+			<integer>280</integer>
+		</dict>
+	</dict>
+	<key>version</key>
+	<string>1.2</string>
+	<key>webaddress</key>
+	<string>https://github.com/nikitavoloboev/small-workflows/blob/master/dropbox-upload#readme</string>
+</dict>
+</plist>

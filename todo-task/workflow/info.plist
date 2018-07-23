@@ -1,0 +1,1066 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>nikivi.create.task</string>
+	<key>category</key>
+	<string>Mine</string>
+	<key>connections</key>
+	<dict>
+		<key>0072C59D-3BEB-4DD7-94D3-C8EE2846B2A1</key>
+		<array/>
+		<key>0C4C1157-CFC8-4686-9022-557785319C20</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>27B16339-70CA-4F10-B71E-4436E5B17C86</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>1E07DCA9-9A95-48B4-AD53-11ACDAC37663</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0072C59D-3BEB-4DD7-94D3-C8EE2846B2A1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>27B16339-70CA-4F10-B71E-4436E5B17C86</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>8F836C34-2730-4FA3-BB5B-653C497C57CA</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>346FBB26-B505-435F-87E5-52D4007843ED</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>328CBD6E-1E3A-4059-A05C-F0E33CD289D2</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>97256A40-415C-42D1-B832-8BC1D383B33B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>346FBB26-B505-435F-87E5-52D4007843ED</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>FFC4D90A-CB7B-4542-A04F-5D9944F2E50B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>3C945919-A794-443F-BEC1-8B6126D8A6DD</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>F5B66E34-F2F6-4F73-83A0-EE815AA549AA</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>49EAD337-F46E-4A20-BF3D-2DB5EDC28D0E</key>
+		<array/>
+		<key>6F8D45BB-3189-45E5-BD79-E0C6646B57DD</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>27B16339-70CA-4F10-B71E-4436E5B17C86</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>7CF0259E-45CA-4841-A7D7-973B36F35102</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B3EC45AE-DB81-4991-B582-35BFCABE02D8</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>AF46F97C-C691-465A-9B06-AB2D1191DD97</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>7D028C4B-D7F4-4A62-9DCC-F22EE0A60C95</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D177E1D0-2490-4972-8C9B-39CF459CFA71</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>8C5A1837-E1CF-4DD9-9B5A-DC0C4BC0A581</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0072C59D-3BEB-4DD7-94D3-C8EE2846B2A1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>8F836C34-2730-4FA3-BB5B-653C497C57CA</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7D028C4B-D7F4-4A62-9DCC-F22EE0A60C95</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>97256A40-415C-42D1-B832-8BC1D383B33B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1E07DCA9-9A95-48B4-AD53-11ACDAC37663</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>A4CCFF7F-5797-418E-9695-7E88490523E0</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7CF0259E-45CA-4841-A7D7-973B36F35102</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>A8E30176-ADF0-4143-ACF4-0F7038414E31</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1E07DCA9-9A95-48B4-AD53-11ACDAC37663</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>AF46F97C-C691-465A-9B06-AB2D1191DD97</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>328CBD6E-1E3A-4059-A05C-F0E33CD289D2</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>B3EC45AE-DB81-4991-B582-35BFCABE02D8</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>3C945919-A794-443F-BEC1-8B6126D8A6DD</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>D177E1D0-2490-4972-8C9B-39CF459CFA71</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D1D07EC6-7867-4E18-B8D2-78FC7820B222</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>D1D07EC6-7867-4E18-B8D2-78FC7820B222</key>
+		<array/>
+		<key>EFA01D98-8C93-4BED-9EEF-A58E8B236725</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>49EAD337-F46E-4A20-BF3D-2DB5EDC28D0E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>F5B66E34-F2F6-4F73-83A0-EE815AA549AA</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A8E30176-ADF0-4143-ACF4-0F7038414E31</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>FFC4D90A-CB7B-4542-A04F-5D9944F2E50B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>EFA01D98-8C93-4BED-9EEF-A58E8B236725</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Nikita Voloboev</string>
+	<key>description</key>
+	<string>Write a task and display it in middle of screen.</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>TODO Task</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>triggerid</key>
+				<string>new</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>A4CCFF7F-5797-418E-9695-7E88490523E0</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>if [ ! -f ~/Library/Application\ Support/Alfred\ 3/Workflow\ Data/nikivi.create.task/temp ]; then
+	echo "no"
+fi</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>7CF0259E-45CA-4841-A7D7-973B36F35102</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string># Create the data dir and TODO file if it doesn't exist already
+if [ ! -d ~/Library/Application\ Support/Alfred\ 3/Workflow\ Data/nikivi.create.task ]; then
+	mkdir ~/Library/Application\ Support/Alfred\ 3/Workflow\ Data/nikivi.create.task    
+	touch ~/Library/Application\ Support/Alfred\ 3/Workflow\ Data/nikivi.create.task/todo
+	touch ~/Library/Application\ Support/Alfred\ 3/Workflow\ Data/nikivi.create.task/temp
+fi
+
+# cd to to the Alfred dir
+cd ~/Library/Application\ Support/Alfred\ 3/Workflow\ Data/nikivi.create.task
+
+# Remove the file
+rm -rf todo 
+
+# Write the TODO task to the file
+echo -e '#!/bin/bash\n\necho' $1 &gt; todo
+
+# Make it executable. Now you can show this TODO task in BitBar/Hammerspoon/Alfred
+chmod a+x ~/Library/Application\ Support/Alfred\ 3/Workflow\ Data/nikivi.create.task/todo</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>0072C59D-3BEB-4DD7-94D3-C8EE2846B2A1</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>rm -rf ~/Library/Application\ Support/Alfred\ 3/Workflow\ Data/nikivi.create.task/temp</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>A8E30176-ADF0-4143-ACF4-0F7038414E31</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>count</key>
+				<integer>1</integer>
+				<key>keychar</key>
+				<string>⎋</string>
+				<key>keycode</key>
+				<integer>53</integer>
+				<key>keymod</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.dispatchkeycombo</string>
+			<key>uid</key>
+			<string>F5B66E34-F2F6-4F73-83A0-EE815AA549AA</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string># THESE VARIABLES MUST BE SET. SEE THE ONEUPDATER README FOR AN EXPLANATION OF EACH.
+readonly remote_info_plist="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/todo-task/workflow/info.plist"
+readonly workflow_url="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/todo-task/TODO%20Task.alfredworkflow"
+readonly download_type='direct'
+readonly frequency_check='7'
+
+# FROM HERE ON, CODE SHOULD BE LEFT UNTOUCHED!
+function abort {
+  echo "${1}" &gt;&amp;2
+  exit 1
+}
+
+function url_exists {
+  curl --silent --location --output /dev/null --fail --range 0-0 "${1}"
+}
+
+function notification {
+  readonly local notificator="$(find . -type d -name 'Notificator.app')"
+  if [[ -n "${notificator}" ]]; then
+    "${notificator}/Contents/Resources/Scripts/notificator" --message "${1}" --title "${alfred_workflow_name}" --subtitle 'A new version is available'
+    return
+  fi
+
+  readonly local terminal_notifier="$(find . -type f -name 'terminal-notifier')"
+  if [[ -n "${terminal_notifier}" ]]; then
+    "${terminal_notifier}" -title "${alfred_workflow_name}" -subtitle 'A new version is available' -message "${1}"
+    return
+  fi
+
+  osascript -e "display notification \"${1}\" with title \"${alfred_workflow_name}\" subtitle \"A new version is available\""
+}
+
+# Local sanity checks
+readonly local_info_plist='info.plist'
+readonly local_version="$(/usr/libexec/PlistBuddy -c 'print version' "${local_info_plist}")"
+
+[[ -n "${local_version}" ]] || abort 'You need to set a workflow version in the configuration sheet.'
+[[ "${download_type}" =~ ^(direct|page|github_release)$ ]] || abort "'download_type' (${download_type}) needs to be one of 'direct', 'page', or 'github_release'."
+[[ "${frequency_check}" =~ ^[0-9]+$ ]] || abort "'frequency_check' (${frequency_check}) needs to be a number."
+
+# Check for updates
+if [[ $(find "${local_info_plist}" -mtime +"${frequency_check}"d) ]]; then
+  if ! url_exists "${remote_info_plist}"; then abort "'remote_info_plist' (${remote_info_plist}) appears to not be reachable."; fi # Remote sanity check
+
+  readonly tmp_file="$(mktemp)"
+  curl --silent --location --output "${tmp_file}" "${remote_info_plist}"
+  readonly remote_version="$(/usr/libexec/PlistBuddy -c 'print version' "${tmp_file}")"
+
+  if [[ "${local_version}" == "${remote_version}" ]]; then
+    touch "${local_info_plist}" # Reset timer by touching local file
+    exit 0
+  fi
+
+  if [[ "${download_type}" == 'page' ]]; then
+    notification 'Opening download page…'
+    open "${workflow_url}"
+    exit 0
+  fi
+
+  download_url="$([[ "${download_type}" == 'github_release' ]] &amp;&amp; curl --silent "https://api.github.com/repos/${workflow_url}/releases/latest" | grep 'browser_download_url' | head -1 | sed -E 's/.*browser_download_url": "(.*)"/\1/' || echo "${workflow_url}")"
+
+  if url_exists "${download_url}"; then
+    notification 'Downloading and installing…'
+    curl --silent --location --output "${HOME}/Downloads/${alfred_workflow_name}.alfredworkflow" "${download_url}"
+    open "${HOME}/Downloads/${alfred_workflow_name}.alfredworkflow"
+  else
+    abort "'workflow_url' (${download_url}) appears to not be reachable."
+  fi
+fi</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>B6A4F1AB-CFED-47B3-8BE3-7FE2595A3737</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>todo</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Create task</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>1E07DCA9-9A95-48B4-AD53-11ACDAC37663</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.transform</string>
+			<key>uid</key>
+			<string>B3EC45AE-DB81-4991-B582-35BFCABE02D8</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string>{query}</string>
+				<key>matchcasesensitive</key>
+				<true/>
+				<key>matchmode</key>
+				<integer>1</integer>
+				<key>matchstring</key>
+				<string>no</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>3C945919-A794-443F-BEC1-8B6126D8A6DD</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>1</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>hotstring</key>
+				<string></string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>8C5A1837-E1CF-4DD9-9B5A-DC0C4BC0A581</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string>{query}</string>
+				<key>matchcasesensitive</key>
+				<true/>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>no</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>328CBD6E-1E3A-4059-A05C-F0E33CD289D2</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.transform</string>
+			<key>uid</key>
+			<string>AF46F97C-C691-465A-9B06-AB2D1191DD97</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>97256A40-415C-42D1-B832-8BC1D383B33B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>triggerid</key>
+				<string>view</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>6F8D45BB-3189-45E5-BD79-E0C6646B57DD</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>largetypetext</key>
+				<string>{query}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.largetype</string>
+			<key>uid</key>
+			<string>D1D07EC6-7867-4E18-B8D2-78FC7820B222</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>cd ~/Library/Application\ Support/Alfred\ 3/Workflow\ Data/nikivi.create.task
+touch temp
+./todo</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>D177E1D0-2490-4972-8C9B-39CF459CFA71</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.transform</string>
+			<key>uid</key>
+			<string>8F836C34-2730-4FA3-BB5B-653C497C57CA</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string>{query}</string>
+				<key>matchcasesensitive</key>
+				<true/>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>no</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>7D028C4B-D7F4-4A62-9DCC-F22EE0A60C95</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>if [ ! -f ~/Library/Application\ Support/Alfred\ 3/Workflow\ Data/nikivi.create.task/temp ]; then
+	echo "no"
+fi</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>27B16339-70CA-4F10-B71E-4436E5B17C86</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>1</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>hotstring</key>
+				<string></string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>0C4C1157-CFC8-4686-9022-557785319C20</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>rm -rf ~/Library/Application\ Support/Alfred\ 3/Workflow\ Data/nikivi.create.task/temp</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>49EAD337-F46E-4A20-BF3D-2DB5EDC28D0E</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>count</key>
+				<integer>1</integer>
+				<key>keychar</key>
+				<string>⎋</string>
+				<key>keycode</key>
+				<integer>53</integer>
+				<key>keymod</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.dispatchkeycombo</string>
+			<key>uid</key>
+			<string>EFA01D98-8C93-4BED-9EEF-A58E8B236725</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.transform</string>
+			<key>uid</key>
+			<string>346FBB26-B505-435F-87E5-52D4007843ED</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string>{query}</string>
+				<key>matchcasesensitive</key>
+				<true/>
+				<key>matchmode</key>
+				<integer>1</integer>
+				<key>matchstring</key>
+				<string>no</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>FFC4D90A-CB7B-4542-A04F-5D9944F2E50B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>Details on how to use this workflow are found in the GitHub repo attached to the workflow. 
+
+Double click this workflow in sidebar -&gt; Open website.
+
+Post any issues and feature requests you have there. 💜</string>
+	<key>uidata</key>
+	<dict>
+		<key>0072C59D-3BEB-4DD7-94D3-C8EE2846B2A1</key>
+		<dict>
+			<key>note</key>
+			<string>Create TODO</string>
+			<key>xpos</key>
+			<integer>1010</integer>
+			<key>ypos</key>
+			<integer>10</integer>
+		</dict>
+		<key>0C4C1157-CFC8-4686-9022-557785319C20</key>
+		<dict>
+			<key>xpos</key>
+			<integer>20</integer>
+			<key>ypos</key>
+			<integer>450</integer>
+		</dict>
+		<key>1E07DCA9-9A95-48B4-AD53-11ACDAC37663</key>
+		<dict>
+			<key>xpos</key>
+			<integer>840</integer>
+			<key>ypos</key>
+			<integer>10</integer>
+		</dict>
+		<key>27B16339-70CA-4F10-B71E-4436E5B17C86</key>
+		<dict>
+			<key>note</key>
+			<string>Check temp file</string>
+			<key>xpos</key>
+			<integer>190</integer>
+			<key>ypos</key>
+			<integer>370</integer>
+		</dict>
+		<key>328CBD6E-1E3A-4059-A05C-F0E33CD289D2</key>
+		<dict>
+			<key>xpos</key>
+			<integer>570</integer>
+			<key>ypos</key>
+			<integer>200</integer>
+		</dict>
+		<key>346FBB26-B505-435F-87E5-52D4007843ED</key>
+		<dict>
+			<key>xpos</key>
+			<integer>400</integer>
+			<key>ypos</key>
+			<integer>520</integer>
+		</dict>
+		<key>3C945919-A794-443F-BEC1-8B6126D8A6DD</key>
+		<dict>
+			<key>xpos</key>
+			<integer>400</integer>
+			<key>ypos</key>
+			<integer>40</integer>
+		</dict>
+		<key>49EAD337-F46E-4A20-BF3D-2DB5EDC28D0E</key>
+		<dict>
+			<key>note</key>
+			<string>Remove temp file</string>
+			<key>xpos</key>
+			<integer>720</integer>
+			<key>ypos</key>
+			<integer>490</integer>
+		</dict>
+		<key>6F8D45BB-3189-45E5-BD79-E0C6646B57DD</key>
+		<dict>
+			<key>xpos</key>
+			<integer>20</integer>
+			<key>ypos</key>
+			<integer>320</integer>
+		</dict>
+		<key>7CF0259E-45CA-4841-A7D7-973B36F35102</key>
+		<dict>
+			<key>note</key>
+			<string>Check temp file</string>
+			<key>xpos</key>
+			<integer>180</integer>
+			<key>ypos</key>
+			<integer>10</integer>
+		</dict>
+		<key>7D028C4B-D7F4-4A62-9DCC-F22EE0A60C95</key>
+		<dict>
+			<key>xpos</key>
+			<integer>470</integer>
+			<key>ypos</key>
+			<integer>360</integer>
+		</dict>
+		<key>8C5A1837-E1CF-4DD9-9B5A-DC0C4BC0A581</key>
+		<dict>
+			<key>note</key>
+			<string>Create TODO from selected text</string>
+			<key>xpos</key>
+			<integer>840</integer>
+			<key>ypos</key>
+			<integer>140</integer>
+		</dict>
+		<key>8F836C34-2730-4FA3-BB5B-653C497C57CA</key>
+		<dict>
+			<key>xpos</key>
+			<integer>400</integer>
+			<key>ypos</key>
+			<integer>360</integer>
+		</dict>
+		<key>97256A40-415C-42D1-B832-8BC1D383B33B</key>
+		<dict>
+			<key>xpos</key>
+			<integer>660</integer>
+			<key>ypos</key>
+			<integer>200</integer>
+		</dict>
+		<key>A4CCFF7F-5797-418E-9695-7E88490523E0</key>
+		<dict>
+			<key>xpos</key>
+			<integer>20</integer>
+			<key>ypos</key>
+			<integer>10</integer>
+		</dict>
+		<key>A8E30176-ADF0-4143-ACF4-0F7038414E31</key>
+		<dict>
+			<key>note</key>
+			<string>Remove temp file</string>
+			<key>xpos</key>
+			<integer>620</integer>
+			<key>ypos</key>
+			<integer>10</integer>
+		</dict>
+		<key>AF46F97C-C691-465A-9B06-AB2D1191DD97</key>
+		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
+			<key>ypos</key>
+			<integer>200</integer>
+		</dict>
+		<key>B3EC45AE-DB81-4991-B582-35BFCABE02D8</key>
+		<dict>
+			<key>xpos</key>
+			<integer>330</integer>
+			<key>ypos</key>
+			<integer>40</integer>
+		</dict>
+		<key>B6A4F1AB-CFED-47B3-8BE3-7FE2595A3737</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>12</integer>
+			<key>note</key>
+			<string>OneUpdater</string>
+			<key>xpos</key>
+			<integer>1200</integer>
+			<key>ypos</key>
+			<integer>10</integer>
+		</dict>
+		<key>D177E1D0-2490-4972-8C9B-39CF459CFA71</key>
+		<dict>
+			<key>note</key>
+			<string>Create temp file</string>
+			<key>xpos</key>
+			<integer>540</integer>
+			<key>ypos</key>
+			<integer>330</integer>
+		</dict>
+		<key>D1D07EC6-7867-4E18-B8D2-78FC7820B222</key>
+		<dict>
+			<key>note</key>
+			<string>Show your current TODO</string>
+			<key>xpos</key>
+			<integer>720</integer>
+			<key>ypos</key>
+			<integer>330</integer>
+		</dict>
+		<key>EFA01D98-8C93-4BED-9EEF-A58E8B236725</key>
+		<dict>
+			<key>xpos</key>
+			<integer>540</integer>
+			<key>ypos</key>
+			<integer>490</integer>
+		</dict>
+		<key>F5B66E34-F2F6-4F73-83A0-EE815AA549AA</key>
+		<dict>
+			<key>xpos</key>
+			<integer>470</integer>
+			<key>ypos</key>
+			<integer>10</integer>
+		</dict>
+		<key>FFC4D90A-CB7B-4542-A04F-5D9944F2E50B</key>
+		<dict>
+			<key>xpos</key>
+			<integer>470</integer>
+			<key>ypos</key>
+			<integer>520</integer>
+		</dict>
+	</dict>
+	<key>version</key>
+	<string>1.8</string>
+	<key>webaddress</key>
+	<string>https://github.com/nikitavoloboev/small-workflows/blob/master/todo-task#readme</string>
+</dict>
+</plist>

@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>nikivi.wifi.workflow</string>
+	<key>category</key>
+	<string>Mine</string>
+	<key>connections</key>
+	<dict>
+		<key>03597F88-2DED-4596-AE88-9C619C9BB857</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>43B64EC5-FE85-42BF-86C3-D9C131827A98</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>244C9EFF-C0F9-4FA7-BE86-AB0B62D02317</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>43B64EC5-FE85-42BF-86C3-D9C131827A98</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>43B64EC5-FE85-42BF-86C3-D9C131827A98</key>
+		<array/>
+		<key>57284CBF-8EA2-402B-8348-F34F919BA81A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D5F6A6DF-2C1E-4781-B28C-6A480C99C3D6</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>43B64EC5-FE85-42BF-86C3-D9C131827A98</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>5A004C71-5166-4D99-BCE2-C220B5FB7861</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>57284CBF-8EA2-402B-8348-F34F919BA81A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>69CFC7AB-ACC3-4C43-902F-62F71D42CFEF</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>244C9EFF-C0F9-4FA7-BE86-AB0B62D02317</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>952476FD-B1DE-4FC9-9E90-766928DCE83B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>57284CBF-8EA2-402B-8348-F34F919BA81A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>A432B494-0C62-4C7F-B366-07EDCF25C0E5</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>952476FD-B1DE-4FC9-9E90-766928DCE83B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>E8AA9FCB-543D-4306-9A7E-98B7101803E6</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>69CFC7AB-ACC3-4C43-902F-62F71D42CFEF</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>A4AFBB66-6819-4D41-83EB-ABF92F6C821A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>244C9EFF-C0F9-4FA7-BE86-AB0B62D02317</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>BDABADAD-283D-48E1-A307-429BCF1B60EE</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>03597F88-2DED-4596-AE88-9C619C9BB857</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>E8AA9FCB-543D-4306-9A7E-98B7101803E6</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>03597F88-2DED-4596-AE88-9C619C9BB857</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Nikita Voloboev</string>
+	<key>description</key>
+	<string>Check wifi connection / Restart wifi / Toggle it on/off</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>WiFi tools</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<true/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string></string>
+				<key>title</key>
+				<string>{query}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>D5F6A6DF-2C1E-4781-B28C-6A480C99C3D6</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>ping -o -t 1 google.com &gt; /dev/null
+if [[ $? -eq 0 ]]; then
+    echo "online"
+else
+    echo "offline"
+fi</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>57284CBF-8EA2-402B-8348-F34F919BA81A</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string>{query}</string>
+				<key>matchcasesensitive</key>
+				<true/>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>check</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>952476FD-B1DE-4FC9-9E90-766928DCE83B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>fixedorder</key>
+				<false/>
+				<key>items</key>
+				<string>[{"title":"Check","arg":"check","subtitle":"Check wifi"},{"title":"Toggle","arg":"toggle","subtitle":"Toggle wifi on\/off"},{"title":"Restart","arg":"restart","subtitle":"Restart wifi"}]</string>
+				<key>keyword</key>
+				<string>wifi</string>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>WiFi tools</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.listfilter</string>
+			<key>uid</key>
+			<string>A432B494-0C62-4C7F-B366-07EDCF25C0E5</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string>{query}</string>
+				<key>matchcasesensitive</key>
+				<true/>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>toggle</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>E8AA9FCB-543D-4306-9A7E-98B7101803E6</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>applescript</key>
+				<string>on alfred_script(q)
+	set wifi to (do shell script "networksetup -listallhardwareports | grep -A 1 Wi-Fi | tail -n 1 | cut -b 9-12")
+	if (offset of "On" in (do shell script "networksetup -getairportpower " &amp; wifi &amp; " ")) &gt; 0 then
+		do shell script "networksetup -setairportpower " &amp; wifi &amp; " off"
+	else
+		do shell script "networksetup -setairportpower " &amp; wifi &amp; " on"
+	end if
+end alfred_script</string>
+				<key>cachescript</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.applescript</string>
+			<key>uid</key>
+			<string>03597F88-2DED-4596-AE88-9C619C9BB857</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string># THESE VARIABLES MUST BE SET. SEE THE ONEUPDATER README FOR AN EXPLANATION OF EACH.
+readonly remote_info_plist="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/wifi-tools/workflow/info.plist"
+readonly workflow_url="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/wifi-tools/WiFi%20tools.alfredworkflow"
+readonly download_type='direct'
+readonly frequency_check='7'
+
+# FROM HERE ON, CODE SHOULD BE LEFT UNTOUCHED!
+function abort {
+  echo "${1}" &gt;&amp;2
+  exit 1
+}
+
+function url_exists {
+  curl --silent --location --output /dev/null --fail --range 0-0 "${1}"
+}
+
+function notification {
+  readonly local notificator="$(find . -type d -name 'Notificator.app')"
+  if [[ -n "${notificator}" ]]; then
+    "${notificator}/Contents/Resources/Scripts/notificator" --message "${1}" --title "${alfred_workflow_name}" --subtitle 'A new version is available'
+    return
+  fi
+
+  readonly local terminal_notifier="$(find . -type f -name 'terminal-notifier')"
+  if [[ -n "${terminal_notifier}" ]]; then
+    "${terminal_notifier}" -title "${alfred_workflow_name}" -subtitle 'A new version is available' -message "${1}"
+    return
+  fi
+
+  osascript -e "display notification \"${1}\" with title \"${alfred_workflow_name}\" subtitle \"A new version is available\""
+}
+
+# Local sanity checks
+readonly local_info_plist='info.plist'
+readonly local_version="$(/usr/libexec/PlistBuddy -c 'print version' "${local_info_plist}")"
+
+[[ -n "${local_version}" ]] || abort 'You need to set a workflow version in the configuration sheet.'
+[[ "${download_type}" =~ ^(direct|page|github_release)$ ]] || abort "'download_type' (${download_type}) needs to be one of 'direct', 'page', or 'github_release'."
+[[ "${frequency_check}" =~ ^[0-9]+$ ]] || abort "'frequency_check' (${frequency_check}) needs to be a number."
+
+# Check for updates
+if [[ $(find "${local_info_plist}" -mtime +"${frequency_check}"d) ]]; then
+  if ! url_exists "${remote_info_plist}"; then abort "'remote_info_plist' (${remote_info_plist}) appears to not be reachable."; fi # Remote sanity check
+
+  readonly tmp_file="$(mktemp)"
+  curl --silent --location --output "${tmp_file}" "${remote_info_plist}"
+  readonly remote_version="$(/usr/libexec/PlistBuddy -c 'print version' "${tmp_file}")"
+
+  if [[ "${local_version}" == "${remote_version}" ]]; then
+    touch "${local_info_plist}" # Reset timer by touching local file
+    exit 0
+  fi
+
+  if [[ "${download_type}" == 'page' ]]; then
+    notification 'Opening download page…'
+    open "${workflow_url}"
+    exit 0
+  fi
+
+  download_url="$([[ "${download_type}" == 'github_release' ]] &amp;&amp; curl --silent "https://api.github.com/repos/${workflow_url}/releases/latest" | grep 'browser_download_url' | head -1 | sed -E 's/.*browser_download_url": "(.*)"/\1/' || echo "${workflow_url}")"
+
+  if url_exists "${download_url}"; then
+    notification 'Downloading and installing…'
+    curl --silent --location --output "${HOME}/Downloads/${alfred_workflow_name}.alfredworkflow" "${download_url}"
+    open "${HOME}/Downloads/${alfred_workflow_name}.alfredworkflow"
+  else
+    abort "'workflow_url' (${download_url}) appears to not be reachable."
+  fi
+fi</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>784CD9C9-3674-4819-B25F-032B8D6F3AF5</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string>{query}</string>
+				<key>matchcasesensitive</key>
+				<true/>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>restart</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>69CFC7AB-ACC3-4C43-902F-62F71D42CFEF</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>triggerid</key>
+				<string>check</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>5A004C71-5166-4D99-BCE2-C220B5FB7861</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.junction</string>
+			<key>uid</key>
+			<string>43B64EC5-FE85-42BF-86C3-D9C131827A98</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>INTERFACE=$(networksetup -listallhardwareports | grep -A1 "Wi-Fi" | tail -1 | awk '{print $2}')
+
+networksetup -setairportpower $INTERFACE off
+
+networksetup -setairportpower $INTERFACE on</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>244C9EFF-C0F9-4FA7-BE86-AB0B62D02317</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>triggerid</key>
+				<string>restart</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>A4AFBB66-6819-4D41-83EB-ABF92F6C821A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>triggerid</key>
+				<string>toggle</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>BDABADAD-283D-48E1-A307-429BCF1B60EE</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>Details on how to use this workflow are found in the GitHub repo attached to the workflow. 
+
+Double click this workflow in sidebar -&gt; Open website.
+
+Post any issues and feature requests you have there. 💜</string>
+	<key>uidata</key>
+	<dict>
+		<key>03597F88-2DED-4596-AE88-9C619C9BB857</key>
+		<dict>
+			<key>note</key>
+			<string>Toggle WiFi</string>
+			<key>xpos</key>
+			<integer>380</integer>
+			<key>ypos</key>
+			<integer>170</integer>
+		</dict>
+		<key>244C9EFF-C0F9-4FA7-BE86-AB0B62D02317</key>
+		<dict>
+			<key>note</key>
+			<string>Restart WiFi</string>
+			<key>xpos</key>
+			<integer>380</integer>
+			<key>ypos</key>
+			<integer>320</integer>
+		</dict>
+		<key>43B64EC5-FE85-42BF-86C3-D9C131827A98</key>
+		<dict>
+			<key>xpos</key>
+			<integer>570</integer>
+			<key>ypos</key>
+			<integer>210</integer>
+		</dict>
+		<key>57284CBF-8EA2-402B-8348-F34F919BA81A</key>
+		<dict>
+			<key>note</key>
+			<string>Check if WiFi is on</string>
+			<key>xpos</key>
+			<integer>380</integer>
+			<key>ypos</key>
+			<integer>30</integer>
+		</dict>
+		<key>5A004C71-5166-4D99-BCE2-C220B5FB7861</key>
+		<dict>
+			<key>xpos</key>
+			<integer>40</integer>
+			<key>ypos</key>
+			<integer>200</integer>
+		</dict>
+		<key>69CFC7AB-ACC3-4C43-902F-62F71D42CFEF</key>
+		<dict>
+			<key>xpos</key>
+			<integer>230</integer>
+			<key>ypos</key>
+			<integer>190</integer>
+		</dict>
+		<key>784CD9C9-3674-4819-B25F-032B8D6F3AF5</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>12</integer>
+			<key>note</key>
+			<string>OneUpdater</string>
+			<key>xpos</key>
+			<integer>660</integer>
+			<key>ypos</key>
+			<integer>180</integer>
+		</dict>
+		<key>952476FD-B1DE-4FC9-9E90-766928DCE83B</key>
+		<dict>
+			<key>xpos</key>
+			<integer>230</integer>
+			<key>ypos</key>
+			<integer>70</integer>
+		</dict>
+		<key>A432B494-0C62-4C7F-B366-07EDCF25C0E5</key>
+		<dict>
+			<key>xpos</key>
+			<integer>30</integer>
+			<key>ypos</key>
+			<integer>80</integer>
+		</dict>
+		<key>A4AFBB66-6819-4D41-83EB-ABF92F6C821A</key>
+		<dict>
+			<key>xpos</key>
+			<integer>190</integer>
+			<key>ypos</key>
+			<integer>320</integer>
+		</dict>
+		<key>BDABADAD-283D-48E1-A307-429BCF1B60EE</key>
+		<dict>
+			<key>xpos</key>
+			<integer>40</integer>
+			<key>ypos</key>
+			<integer>320</integer>
+		</dict>
+		<key>D5F6A6DF-2C1E-4781-B28C-6A480C99C3D6</key>
+		<dict>
+			<key>xpos</key>
+			<integer>580</integer>
+			<key>ypos</key>
+			<integer>30</integer>
+		</dict>
+		<key>E8AA9FCB-543D-4306-9A7E-98B7101803E6</key>
+		<dict>
+			<key>xpos</key>
+			<integer>230</integer>
+			<key>ypos</key>
+			<integer>130</integer>
+		</dict>
+	</dict>
+	<key>version</key>
+	<string>1.2</string>
+	<key>webaddress</key>
+	<string>https://github.com/nikitavoloboev/small-workflows/blob/master/wifi-tools#readme</string>
+</dict>
+</plist>

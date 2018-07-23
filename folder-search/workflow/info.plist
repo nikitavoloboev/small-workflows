@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>nikivi.search-folders</string>
+	<key>category</key>
+	<string>Mine</string>
+	<key>connections</key>
+	<dict>
+		<key>03377977-4206-4DE4-B59C-45AAD4A0980A</key>
+		<array/>
+		<key>C34E01D2-E55A-4908-8A98-3DE22A77AA48</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CAD232B5-6B26-4DB8-B878-BD157C8296F0</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>CAD232B5-6B26-4DB8-B878-BD157C8296F0</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>6A4E18A0-FDC8-4BA3-93B0-32B605CC24A9</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>F22A1096-062D-4C05-A1C1-CF8D63389B78</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>E5B51884-A97D-4E15-9321-11A17837DA38</string>
+				<key>modifiers</key>
+				<integer>262144</integer>
+				<key>modifiersubtext</key>
+				<string>cd to folder in new iTerm tab</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>D066FC2C-E05A-468E-816D-5496289AE4AD</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Open in Sublime Text</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>03377977-4206-4DE4-B59C-45AAD4A0980A</string>
+				<key>modifiers</key>
+				<integer>524288</integer>
+				<key>modifiersubtext</key>
+				<string>Edit README inside Folder</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>71F8D037-965A-4B39-AEF4-480468260C15</string>
+				<key>modifiers</key>
+				<integer>131072</integer>
+				<key>modifiersubtext</key>
+				<string>Trash folder</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>27618EAD-E675-43BC-841E-6986EAE4597D</string>
+				<key>modifiers</key>
+				<integer>8388608</integer>
+				<key>modifiersubtext</key>
+				<string>Open in VS Code</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>F22A1096-062D-4C05-A1C1-CF8D63389B78</key>
+		<array/>
+	</dict>
+	<key>createdby</key>
+	<string>Nikita Voloboev</string>
+	<key>description</key>
+	<string>Search folders from Alfred and open them in Finder/iTerm/Editor</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Folder search</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>paths</key>
+				<array>
+					<string>/Applications/iTerm.app</string>
+				</array>
+				<key>toggle</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.launchfiles</string>
+			<key>uid</key>
+			<string>6A4E18A0-FDC8-4BA3-93B0-32B605CC24A9</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>tell application "iTerm"	if exists window 1 then		tell current window			tell current session to write text "cd \"{query}\""		end tell	else		create window with default profile		tell current window			tell current session to write text "cd \"{query}\""		end tell	end ifend tell
+tell application "System Events"	if frontmost of process "iTerm2" is false then key code 13 using {option down, control down, shift down, command down}end tell</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>6</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>F22A1096-062D-4C05-A1C1-CF8D63389B78</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string># THESE VARIABLES MUST BE SET. SEE THE ONEUPDATER README FOR AN EXPLANATION OF EACH.
+readonly remote_info_plist="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/folder-search/workflow/info.plist"
+readonly workflow_url="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/folder-search/Folder%20search.alfredworkflow"
+readonly download_type='direct'
+readonly frequency_check='10'
+
+# FROM HERE ON, CODE SHOULD BE LEFT UNTOUCHED!
+function abort {
+  echo "${1}" &gt;&amp;2
+  exit 1
+}
+
+function url_exists {
+  curl --silent --location --output /dev/null --fail --range 0-0 "${1}"
+}
+
+function notification {
+  readonly local notificator="$(find . -type d -name 'Notificator.app')"
+  if [[ -n "${notificator}" ]]; then
+    "${notificator}/Contents/Resources/Scripts/notificator" --message "${1}" --title "${alfred_workflow_name}" --subtitle 'A new version is available'
+    return
+  fi
+
+  readonly local terminal_notifier="$(find . -type f -name 'terminal-notifier')"
+  if [[ -n "${terminal_notifier}" ]]; then
+    "${terminal_notifier}" -title "${alfred_workflow_name}" -subtitle 'A new version is available' -message "${1}"
+    return
+  fi
+
+  osascript -e "display notification \"${1}\" with title \"${alfred_workflow_name}\" subtitle \"A new version is available\""
+}
+
+# Local sanity checks
+readonly local_info_plist='info.plist'
+readonly local_version="$(/usr/libexec/PlistBuddy -c 'print version' "${local_info_plist}")"
+
+[[ -n "${local_version}" ]] || abort 'You need to set a workflow version in the configuration sheet.'
+[[ "${download_type}" =~ ^(direct|page|github_release)$ ]] || abort "'download_type' (${download_type}) needs to be one of 'direct', 'page', or 'github_release'."
+[[ "${frequency_check}" =~ ^[0-9]+$ ]] || abort "'frequency_check' (${frequency_check}) needs to be a number."
+
+# Check for updates
+if [[ $(find "${local_info_plist}" -mtime +"${frequency_check}"d) ]]; then
+  if ! url_exists "${remote_info_plist}"; then abort "'remote_info_plist' (${remote_info_plist}) appears to not be reachable."; fi # Remote sanity check
+
+  readonly tmp_file="$(mktemp)"
+  curl --silent --location --output "${tmp_file}" "${remote_info_plist}"
+  readonly remote_version="$(/usr/libexec/PlistBuddy -c 'print version' "${tmp_file}")"
+
+  if [[ "${local_version}" == "${remote_version}" ]]; then
+    touch "${local_info_plist}" # Reset timer by touching local file
+    exit 0
+  fi
+
+  if [[ "${download_type}" == 'page' ]]; then
+    notification 'Opening download page…'
+    open "${workflow_url}"
+    exit 0
+  fi
+
+  download_url="$([[ "${download_type}" == 'github_release' ]] &amp;&amp; curl --silent "https://api.github.com/repos/${workflow_url}/releases/latest" | grep 'browser_download_url' | head -1 | sed -E 's/.*browser_download_url": "(.*)"/\1/' || echo "${workflow_url}")"
+
+  if url_exists "${download_url}"; then
+    notification 'Downloading and installing…'
+    curl --silent --location --output "${HOME}/Downloads/${alfred_workflow_name}.alfredworkflow" "${download_url}"
+    open "${HOME}/Downloads/${alfred_workflow_name}.alfredworkflow"
+  else
+    abort "'workflow_url' (${download_url}) appears to not be reachable."
+  fi
+fi</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>32C1304F-4BF8-43BE-8163-49EE025637F8</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>openwith</key>
+				<string>/Applications/iTerm.app</string>
+				<key>sourcefile</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>E5B51884-A97D-4E15-9321-11A17837DA38</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>anchorfields</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>daterange</key>
+				<integer>0</integer>
+				<key>fields</key>
+				<array>
+					<dict>
+						<key>field</key>
+						<string>kMDItemDisplayName</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>field</key>
+						<string>kMDItemAlternateNames</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>field</key>
+						<string>kMDItemFinderComment</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+				</array>
+				<key>includesystem</key>
+				<false/>
+				<key>keyword</key>
+				<string>fo</string>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>scopes</key>
+				<array/>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Search folders</string>
+				<key>types</key>
+				<array>
+					<string>public.folder</string>
+				</array>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.filefilter</string>
+			<key>uid</key>
+			<string>CAD232B5-6B26-4DB8-B878-BD157C8296F0</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>triggerid</key>
+				<string>search</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>C34E01D2-E55A-4908-8A98-3DE22A77AA48</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>openwith</key>
+				<string>/Applications/Sublime Text.app</string>
+				<key>sourcefile</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>D066FC2C-E05A-468E-816D-5496289AE4AD</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>cd "$1"
+/usr/local/bin/subl README.md</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>03377977-4206-4DE4-B59C-45AAD4A0980A</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>mv "$1" ~/.Trash</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>71F8D037-965A-4B39-AEF4-480468260C15</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>openwith</key>
+				<string>/Applications/Visual Studio Code.app</string>
+				<key>sourcefile</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>27618EAD-E675-43BC-841E-6986EAE4597D</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>Details on how to use this workflow are found in the GitHub repo attached to the workflow. 
+
+Double click this workflow in sidebar -&gt; Open website.
+
+Post any issues and feature requests you have there. 💜</string>
+	<key>uidata</key>
+	<dict>
+		<key>03377977-4206-4DE4-B59C-45AAD4A0980A</key>
+		<dict>
+			<key>note</key>
+			<string>Edit readme of folder</string>
+			<key>xpos</key>
+			<integer>490</integer>
+			<key>ypos</key>
+			<integer>530</integer>
+		</dict>
+		<key>27618EAD-E675-43BC-841E-6986EAE4597D</key>
+		<dict>
+			<key>xpos</key>
+			<integer>490</integer>
+			<key>ypos</key>
+			<integer>810</integer>
+		</dict>
+		<key>32C1304F-4BF8-43BE-8163-49EE025637F8</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>12</integer>
+			<key>note</key>
+			<string>OneUpdater</string>
+			<key>xpos</key>
+			<integer>690</integer>
+			<key>ypos</key>
+			<integer>130</integer>
+		</dict>
+		<key>6A4E18A0-FDC8-4BA3-93B0-32B605CC24A9</key>
+		<dict>
+			<key>xpos</key>
+			<integer>490</integer>
+			<key>ypos</key>
+			<integer>10</integer>
+		</dict>
+		<key>71F8D037-965A-4B39-AEF4-480468260C15</key>
+		<dict>
+			<key>note</key>
+			<string>Trash folder</string>
+			<key>xpos</key>
+			<integer>490</integer>
+			<key>ypos</key>
+			<integer>670</integer>
+		</dict>
+		<key>C34E01D2-E55A-4908-8A98-3DE22A77AA48</key>
+		<dict>
+			<key>xpos</key>
+			<integer>10</integer>
+			<key>ypos</key>
+			<integer>300</integer>
+		</dict>
+		<key>CAD232B5-6B26-4DB8-B878-BD157C8296F0</key>
+		<dict>
+			<key>note</key>
+			<string>Search folders</string>
+			<key>xpos</key>
+			<integer>170</integer>
+			<key>ypos</key>
+			<integer>300</integer>
+		</dict>
+		<key>D066FC2C-E05A-468E-816D-5496289AE4AD</key>
+		<dict>
+			<key>xpos</key>
+			<integer>490</integer>
+			<key>ypos</key>
+			<integer>410</integer>
+		</dict>
+		<key>E5B51884-A97D-4E15-9321-11A17837DA38</key>
+		<dict>
+			<key>xpos</key>
+			<integer>490</integer>
+			<key>ypos</key>
+			<integer>290</integer>
+		</dict>
+		<key>F22A1096-062D-4C05-A1C1-CF8D63389B78</key>
+		<dict>
+			<key>note</key>
+			<string>cd to folder in current iTerm tab</string>
+			<key>xpos</key>
+			<integer>490</integer>
+			<key>ypos</key>
+			<integer>130</integer>
+		</dict>
+	</dict>
+	<key>version</key>
+	<string>1.3</string>
+	<key>webaddress</key>
+	<string>https://github.com/nikitavoloboev/small-workflows/blob/master/folder-search#readme</string>
+</dict>
+</plist>

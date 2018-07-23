@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>nikivi.go.to.sub</string>
+	<key>category</key>
+	<string>Mine</string>
+	<key>connections</key>
+	<dict>
+		<key>05EBC522-8195-4564-9525-7FA0D4EA6340</key>
+		<array/>
+		<key>1482B57B-388E-4944-AFF6-8BAD3BFB68BB</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>05EBC522-8195-4564-9525-7FA0D4EA6340</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>F09FDBA1-A245-4099-88C1-4CD44A3AC864</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>New</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>893325FF-CA33-4918-A831-39E8E704B4B7</string>
+				<key>modifiers</key>
+				<integer>262144</integer>
+				<key>modifiersubtext</key>
+				<string>Top (all)</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>C471EC9A-ACA5-45EC-BCE5-3A8090DE294B</string>
+				<key>modifiers</key>
+				<integer>524288</integer>
+				<key>modifiersubtext</key>
+				<string>Top (week)</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>32C3B89F-AF22-4FEE-B6C4-18042F842F35</string>
+				<key>modifiers</key>
+				<integer>8388608</integer>
+				<key>modifiersubtext</key>
+				<string>Top (month)</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>91D6FD5D-9A2D-41FF-A714-5D5A25161817</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1482B57B-388E-4944-AFF6-8BAD3BFB68BB</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Nikita Voloboev</string>
+	<key>description</key>
+	<string>Go to any subreddit on Reddit</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Go to subreddit</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://www.reddit.com/r/{query}/</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>05EBC522-8195-4564-9525-7FA0D4EA6340</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string># THESE VARIABLES MUST BE SET. SEE THE ONEUPDATER README FOR AN EXPLANATION OF EACH.
+readonly remote_info_plist="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/goto-subreddit/workflow/info.plist"
+readonly workflow_url="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/goto-subreddit/Go%20to%20subreddit.alfredworkflow"
+readonly download_type='direct'
+readonly frequency_check='7'
+
+# FROM HERE ON, CODE SHOULD BE LEFT UNTOUCHED!
+function abort {
+  echo "${1}" &gt;&amp;2
+  exit 1
+}
+
+function url_exists {
+  curl --silent --location --output /dev/null --fail --range 0-0 "${1}"
+}
+
+function notification {
+  readonly local notificator="$(find . -type d -name 'Notificator.app')"
+  if [[ -n "${notificator}" ]]; then
+    "${notificator}/Contents/Resources/Scripts/notificator" --message "${1}" --title "${alfred_workflow_name}" --subtitle 'A new version is available'
+    return
+  fi
+
+  readonly local terminal_notifier="$(find . -type f -name 'terminal-notifier')"
+  if [[ -n "${terminal_notifier}" ]]; then
+    "${terminal_notifier}" -title "${alfred_workflow_name}" -subtitle 'A new version is available' -message "${1}"
+    return
+  fi
+
+  osascript -e "display notification \"${1}\" with title \"${alfred_workflow_name}\" subtitle \"A new version is available\""
+}
+
+# Local sanity checks
+readonly local_info_plist='info.plist'
+readonly local_version="$(/usr/libexec/PlistBuddy -c 'print version' "${local_info_plist}")"
+
+[[ -n "${local_version}" ]] || abort 'You need to set a workflow version in the configuration sheet.'
+[[ "${download_type}" =~ ^(direct|page|github_release)$ ]] || abort "'download_type' (${download_type}) needs to be one of 'direct', 'page', or 'github_release'."
+[[ "${frequency_check}" =~ ^[0-9]+$ ]] || abort "'frequency_check' (${frequency_check}) needs to be a number."
+
+# Check for updates
+if [[ $(find "${local_info_plist}" -mtime +"${frequency_check}"d) ]]; then
+  if ! url_exists "${remote_info_plist}"; then abort "'remote_info_plist' (${remote_info_plist}) appears to not be reachable."; fi # Remote sanity check
+
+  readonly tmp_file="$(mktemp)"
+  curl --silent --location --output "${tmp_file}" "${remote_info_plist}"
+  readonly remote_version="$(/usr/libexec/PlistBuddy -c 'print version' "${tmp_file}")"
+
+  if [[ "${local_version}" == "${remote_version}" ]]; then
+    touch "${local_info_plist}" # Reset timer by touching local file
+    exit 0
+  fi
+
+  if [[ "${download_type}" == 'page' ]]; then
+    notification 'Opening download page…'
+    open "${workflow_url}"
+    exit 0
+  fi
+
+  download_url="$([[ "${download_type}" == 'github_release' ]] &amp;&amp; curl --silent "https://api.github.com/repos/${workflow_url}/releases/latest" | grep 'browser_download_url' | head -1 | sed -E 's/.*browser_download_url": "(.*)"/\1/' || echo "${workflow_url}")"
+
+  if url_exists "${download_url}"; then
+    notification 'Downloading and installing…'
+    curl --silent --location --output "${HOME}/Downloads/${alfred_workflow_name}.alfredworkflow" "${download_url}"
+    open "${HOME}/Downloads/${alfred_workflow_name}.alfredworkflow"
+  else
+    abort "'workflow_url' (${download_url}) appears to not be reachable."
+  fi
+fi</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>C64D30BD-0C81-4B35-B4B4-517E8C1BC175</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://www.reddit.com/r/{query}/new</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>F09FDBA1-A245-4099-88C1-4CD44A3AC864</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>triggerid</key>
+				<string>goto</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>91D6FD5D-9A2D-41FF-A714-5D5A25161817</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>sub</string>
+				<key>subtext</key>
+				<string>⌘ = New | ⌃ = Top (all) | ⌥ = Top (week) | fn = Top (month)</string>
+				<key>text</key>
+				<string>Go to {query} subreddit</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>1482B57B-388E-4944-AFF6-8BAD3BFB68BB</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://www.reddit.com/r/{query}/top/?sort=top&amp;t=all</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>893325FF-CA33-4918-A831-39E8E704B4B7</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://www.reddit.com/r/{query}/top/?sort=top&amp;t=week</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>C471EC9A-ACA5-45EC-BCE5-3A8090DE294B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://www.reddit.com/r/{query}/top/?sort=top&amp;t=month</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>32C3B89F-AF22-4FEE-B6C4-18042F842F35</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>Details on how to use this workflow are found in the GitHub repo attached to the workflow. 
+
+Double click this workflow in sidebar -&gt; Open website.
+
+Post any issues and feature requests you have there. 💜</string>
+	<key>uidata</key>
+	<dict>
+		<key>05EBC522-8195-4564-9525-7FA0D4EA6340</key>
+		<dict>
+			<key>xpos</key>
+			<integer>470</integer>
+			<key>ypos</key>
+			<integer>10</integer>
+		</dict>
+		<key>1482B57B-388E-4944-AFF6-8BAD3BFB68BB</key>
+		<dict>
+			<key>xpos</key>
+			<integer>170</integer>
+			<key>ypos</key>
+			<integer>210</integer>
+		</dict>
+		<key>32C3B89F-AF22-4FEE-B6C4-18042F842F35</key>
+		<dict>
+			<key>xpos</key>
+			<integer>470</integer>
+			<key>ypos</key>
+			<integer>520</integer>
+		</dict>
+		<key>893325FF-CA33-4918-A831-39E8E704B4B7</key>
+		<dict>
+			<key>xpos</key>
+			<integer>470</integer>
+			<key>ypos</key>
+			<integer>270</integer>
+		</dict>
+		<key>91D6FD5D-9A2D-41FF-A714-5D5A25161817</key>
+		<dict>
+			<key>xpos</key>
+			<integer>10</integer>
+			<key>ypos</key>
+			<integer>210</integer>
+		</dict>
+		<key>C471EC9A-ACA5-45EC-BCE5-3A8090DE294B</key>
+		<dict>
+			<key>xpos</key>
+			<integer>470</integer>
+			<key>ypos</key>
+			<integer>390</integer>
+		</dict>
+		<key>C64D30BD-0C81-4B35-B4B4-517E8C1BC175</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>12</integer>
+			<key>note</key>
+			<string>OneUpdater</string>
+			<key>xpos</key>
+			<integer>660</integer>
+			<key>ypos</key>
+			<integer>10</integer>
+		</dict>
+		<key>F09FDBA1-A245-4099-88C1-4CD44A3AC864</key>
+		<dict>
+			<key>xpos</key>
+			<integer>470</integer>
+			<key>ypos</key>
+			<integer>140</integer>
+		</dict>
+	</dict>
+	<key>version</key>
+	<string>1.2</string>
+	<key>webaddress</key>
+	<string>https://github.com/nikitavoloboev/small-workflows/blob/master/goto-subreddit#readme</string>
+</dict>
+</plist>

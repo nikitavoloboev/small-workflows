@@ -365,10 +365,7 @@ cd ~/Library/Application\ Support/Alfred\ 3/Workflow\ Data/nikivi.create.task
 rm -rf todo 
 
 # Write the TODO task to the file
-echo -e '#!/bin/bash\n\necho' $1 &gt; todo
-
-# Make it executable. Now you can show this TODO task in BitBar/Hammerspoon/Alfred
-chmod a+x ~/Library/Application\ Support/Alfred\ 3/Workflow\ Data/nikivi.create.task/todo</string>
+echo -e "$1" &gt; todo</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -683,7 +680,7 @@ fi</string>
 				<key>script</key>
 				<string>cd ~/Library/Application\ Support/Alfred\ 3/Workflow\ Data/nikivi.create.task
 touch temp
-./todo</string>
+cat todo</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -1059,7 +1056,7 @@ Post any issues and feature requests you have there. 💜</string>
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>1.8</string>
+	<string>1.8.1</string>
 	<key>webaddress</key>
 	<string>https://github.com/nikitavoloboev/small-workflows/blob/master/todo-task#readme</string>
 </dict>

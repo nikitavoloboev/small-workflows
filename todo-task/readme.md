@@ -8,7 +8,11 @@ The way this workflow works is that it creates a small `todo` file the Alfred da
 
 You can then by calling the external trigger or with `todo` trigger write the task you want to work on and it will be added as active TODO.
 
+![](https://i.imgur.com/sgJ1xEN.png)
+
 You can then run the external trigger `view`, I call mine from [Karabiner](https://wiki.nikitavoloboev.xyz/macOS/apps/karabiner/karabiner.html) and see the task you should be working on in the middle of the screen. Activating the external trigger again will hide showing of it from the screen.
+
+![](https://i.imgur.com/L5YY3TK.png)
 
 This lets me work on tasks one by one in GTD style. No multi tasking.
 

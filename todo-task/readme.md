@@ -12,7 +12,7 @@ You can then by calling the external trigger or with `todo` trigger write the ta
 
 You can then run the external trigger `view`, I call mine from [Karabiner](https://wiki.nikitavoloboev.xyz/macOS/apps/karabiner/karabiner.html) and see the task you should be working on in the middle of the screen. Activating the external trigger again will hide showing of it from the screen.
 
-![](https://i.imgur.com/L5YY3TK.png)
+![](https://i.imgur.com/ng1MLHR.png)
 
 This lets me work on tasks one by one in GTD style. No multi tasking.
 

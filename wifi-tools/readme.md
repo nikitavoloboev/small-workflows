@@ -6,7 +6,7 @@ It can:
 2. **Restart WiFi** - Turns the WiFi on and off.
 3. **Toggle WiFi on/off** - If on, will turn it off, if off will turn it on.
 
-![](https://i.imgur.com/HgSUSnH.png)
+![](https://i.imgur.com/oRFkr1h.png)
 
 ## Contributing
 See [contribution guidelines](../CONTRIBUTING.md#readme).

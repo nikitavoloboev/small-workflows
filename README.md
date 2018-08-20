@@ -27,7 +27,7 @@
 - [Local host](local-host#readme) - Open port that you specify at local host.
 - [Objects library](objects-library#readme) - Useful premade objects for workflows.
 - [Open with app](open-with-app#readme) - File actions to quickly open file/folder in the application without going to `Open with...` menu.
-- [TODO Task](todo-task#readme) - Write a task and display it in middle of screen.
+- [TODO Task](todo-task#readme) - Write a task and display it on TouchBar, in middle of screen or menu bar.
 - [Birthday](birthday#readme) - See time passed since your birthday.
 - [Dropbox Upload](dropbox-upload#readme) - Upload and share files with Dropbox.
 

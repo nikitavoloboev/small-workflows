@@ -1,5 +1,5 @@
 # TODO Task - [Download](https://github.com/nikitavoloboev/small-workflows/blob/master/todo-task/TODO%20Task.alfredworkflow?raw=true)
-> Write a task and display it in middle of screen.
+> Write a task and display it on TouchBar, in middle of screen or menu bar.
 
 ## Why use this?
 I use this workflow to create (or update) my current **active TODO**.
@@ -18,7 +18,7 @@ Alternatively you can display the TODO task with Alfred in the middle of the scr
 
 ![](https://i.imgur.com/ng1MLHR.png)
 
-There is also an action that will take selected text and put it as your active TODO. Or if you use [Keyboard Maestro](https://www.keyboardmaestro.com/main/), you can use [this macro](https://www.dropbox.com/s/fk7hwt26to1exwf/Add%20selected%20text%20as%20todo.kmmacros?dl=1) to smartly grab text from various apps like 2Do tasks, Trello cards, or `TODO:`'s in code as well as any arbitrary text you want to make your active TODO.
+There is also an action that will take selected text and put it as your active TODO. Or if you use [Keyboard Maestro](https://www.keyboardmaestro.com/main/), you can use [this macro](https://www.dropbox.com/s/mkn483urqme9hs2/Add%20selected%20text%20as%20todo.kmmacros?dl=1) to smartly grab text from various apps like 2Do tasks, Trello cards, or `TODO:`'s in code as well as any arbitrary text you want to make your active TODO.
 
 You can also point [BitBar](https://github.com/matryer/bitbar) or [TextBar](http://richsomerfield.com/apps/textbar/) to read the content of the file and that will show the `todo` task in your menu bar.
 

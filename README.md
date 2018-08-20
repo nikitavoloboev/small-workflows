@@ -47,13 +47,8 @@ Take a look at the original workflows first, it will most probably work for you 
   - I changed it so that by default it will cd to the workflow in my current iTerm tab but also it can export workflow to `~/Desktop` (you can change location) or it will open the workflow with an editor (VS Code or Sublime in my case).
 - [Directory watches](https://github.com/vitorgalvao/alfred-workflows/tree/master/RecentDownloads) - Search insides of directories and action on things. ([My modification](https://github.com/nikitavoloboev/small-workflows/blob/master/augmentations/Directory%20watches.alfredworkflow?raw=true))
   - I modified a script he once shared to quickly see insides of various directories and action on items of them to do various things opening the path in iTerm or moving the file somewhere.
-- [Similar image search](https://github.com/deanishe/alfred-similar-image-search) - Google Image searches based on local files. ([My modification](https://github.com/nikitavoloboev/small-workflows/blob/master/augmentations/Google%20similar%20images.alfredworkflow?raw=true))
-  - I modified it so you can take a screenshot and immediately search that screenshot on Google
 - [Recent Downloads](https://github.com/ddjfreedom/recent-downloads-alfred-v2) - View `~/Downloads` folder from Alfred and action on contents of it. ([My modification](https://github.com/nikitavoloboev/small-workflows/blob/master/augmentations/Recent%20Downloads.alfredworkflow?raw=true))
 	- I modified it by adding few actions like opening the path in iTerm. Or opening the file/folder in VS Code.
-- [EggTimer](https://www.alfredforum.com/topic/275-eggtimer-v2-updated-to-20-final/) - Start/Stop/View timers. ([My modification](https://github.com/nikitavoloboev/small-workflows/blob/master/augmentations/EggTimer.alfredworkflow?raw=true))
-	- I modified it by making it easy to overwrite one active task. I create timers for some time by passing in `new <mins> Reminder` to `timer` external trigger where `<mins>` stands for minutes. So `new 20 Reminder` will create a running timer for 20 minutes. If I pass in `new 30 Reminder` during these 20 minutes running, it will overwrite the timer and make the 30 min timer countdown instead.
-	- I use this as a way to set quick estimates for tasks I am working on so I [focus on working on the task I need](https://wiki.nikitavoloboev.xyz/focusing/focusing.html) for that time and then take a break or change my tasks.
 
 ## Personal workflows
 Below is a list of workflows that were made for my own personal use and will most certainly not work on your systems unless you change many things in the workflow.

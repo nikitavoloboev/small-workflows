@@ -218,19 +218,6 @@
 				<false/>
 			</dict>
 		</array>
-		<key>B22E3FFC-0273-4892-8271-E205E0998448</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>D7D452CC-3EE1-4321-A4E1-42521AD2C8B9</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>C2A6F159-A9B6-4652-9010-736A1DFA3B93</key>
 		<array>
 			<dict>
@@ -283,8 +270,6 @@
 				<false/>
 			</dict>
 		</array>
-		<key>D7D452CC-3EE1-4321-A4E1-42521AD2C8B9</key>
-		<array/>
 		<key>DB8AFD33-EAA1-43C7-BD68-340F26F08DD4</key>
 		<array>
 			<dict>
@@ -469,52 +454,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>action</key>
-				<integer>0</integer>
-				<key>argument</key>
-				<integer>1</integer>
-				<key>focusedappvariable</key>
-				<false/>
-				<key>focusedappvariablename</key>
-				<string></string>
-				<key>hotkey</key>
-				<integer>1</integer>
-				<key>hotmod</key>
-				<integer>917504</integer>
-				<key>hotstring</key>
-				<string>S</string>
-				<key>leftcursor</key>
-				<false/>
-				<key>modsmode</key>
-				<integer>0</integer>
-				<key>relatedAppsMode</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.hotkey</string>
-			<key>uid</key>
-			<string>95B628B5-C9CE-423F-B82D-20A44998E997</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>searcher</key>
-				<integer>1635214453</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.systemwebsearch</string>
-			<key>uid</key>
-			<string>46C06A6F-BC42-4504-AB1A-A028CCFE7239</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -608,6 +547,52 @@ fi</string>
 			<string>alfred.workflow.utility.junction</string>
 			<key>uid</key>
 			<string>1420A89D-8F71-4CDB-B488-B77681D46562</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>1</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>1</integer>
+				<key>hotmod</key>
+				<integer>917504</integer>
+				<key>hotstring</key>
+				<string>S</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>95B628B5-C9CE-423F-B82D-20A44998E997</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>searcher</key>
+				<integer>1635214453</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.systemwebsearch</string>
+			<key>uid</key>
+			<string>46C06A6F-BC42-4504-AB1A-A028CCFE7239</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -814,21 +799,6 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>searcher</key>
-				<integer>1635218546</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.systemwebsearch</string>
-			<key>uid</key>
-			<string>569F1BBD-F878-4A7A-92CF-27FF5C854EEF</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>action</key>
 				<integer>0</integer>
 				<key>argument</key>
@@ -856,6 +826,21 @@ fi</string>
 			<string>EF21AC2F-1C23-4880-9ACC-6A19B4E27DC1</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>searcher</key>
+				<integer>1635218546</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.systemwebsearch</string>
+			<key>uid</key>
+			<string>569F1BBD-F878-4A7A-92CF-27FF5C854EEF</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1106,25 +1091,6 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>https://github.com/search?q={query}&amp;ref=searchresults&amp;type=Code&amp;utf8=%E2%9C%93</string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>20EC1922-83B8-4ADE-B00E-8DB8A2A24994</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>action</key>
 				<integer>0</integer>
 				<key>argument</key>
@@ -1152,6 +1118,25 @@ fi</string>
 			<string>2258BABB-F780-408B-A6F3-D455C7F6945A</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://github.com/search?q={query}&amp;ref=searchresults&amp;type=Code&amp;utf8=%E2%9C%93</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>20EC1922-83B8-4ADE-B00E-8DB8A2A24994</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1299,56 +1284,6 @@ fi</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>https://www.reddit.com/r/askscience/search?q={query}&amp;restrict_sr=on&amp;sort=relevance&amp;t=all</string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>D7D452CC-3EE1-4321-A4E1-42521AD2C8B9</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>action</key>
-				<integer>0</integer>
-				<key>argument</key>
-				<integer>1</integer>
-				<key>focusedappvariable</key>
-				<false/>
-				<key>focusedappvariablename</key>
-				<string></string>
-				<key>hotkey</key>
-				<integer>26</integer>
-				<key>hotmod</key>
-				<integer>1835008</integer>
-				<key>hotstring</key>
-				<string>7</string>
-				<key>leftcursor</key>
-				<false/>
-				<key>modsmode</key>
-				<integer>0</integer>
-				<key>relatedAppsMode</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.hotkey</string>
-			<key>uid</key>
-			<string>B22E3FFC-0273-4892-8271-E205E0998448</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
 	</array>
 	<key>readme</key>
 	<string>Details on how to use this workflow are found in the GitHub repo attached to the workflow. 
@@ -1377,7 +1312,7 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>xpos</key>
 			<integer>380</integer>
 			<key>ypos</key>
-			<integer>350</integer>
+			<integer>180</integer>
 		</dict>
 		<key>17C9B5D0-0677-4B3B-89F2-3A94044EA4D0</key>
 		<dict>
@@ -1526,13 +1461,6 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>ypos</key>
 			<integer>1600</integer>
 		</dict>
-		<key>B22E3FFC-0273-4892-8271-E205E0998448</key>
-		<dict>
-			<key>xpos</key>
-			<integer>20</integer>
-			<key>ypos</key>
-			<integer>2310</integer>
-		</dict>
 		<key>C2A6F159-A9B6-4652-9010-736A1DFA3B93</key>
 		<dict>
 			<key>xpos</key>
@@ -1570,15 +1498,6 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>ypos</key>
 			<integer>2150</integer>
 		</dict>
-		<key>D7D452CC-3EE1-4321-A4E1-42521AD2C8B9</key>
-		<dict>
-			<key>note</key>
-			<string>Reddit (AskScience)</string>
-			<key>xpos</key>
-			<integer>170</integer>
-			<key>ypos</key>
-			<integer>2310</integer>
-		</dict>
 		<key>D8AF92FF-DC40-4C09-A3B9-2131866053A3</key>
 		<dict>
 			<key>colorindex</key>
@@ -1586,9 +1505,9 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>note</key>
 			<string>OneUpdater</string>
 			<key>xpos</key>
-			<integer>480</integer>
+			<integer>460</integer>
 			<key>ypos</key>
-			<integer>320</integer>
+			<integer>150</integer>
 		</dict>
 		<key>DB8AFD33-EAA1-43C7-BD68-340F26F08DD4</key>
 		<dict>
@@ -1654,7 +1573,7 @@ Post any issues and feature requests you have there. 💜</string>
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>1.3</string>
+	<string>1.4</string>
 	<key>webaddress</key>
 	<string>https://github.com/nikitavoloboev/small-workflows/blob/master/search-selection#readme</string>
 </dict>

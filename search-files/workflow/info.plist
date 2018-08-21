@@ -35,16 +35,6 @@
 			</dict>
 			<dict>
 				<key>destinationuid</key>
-				<string>16EC7338-CE7B-4C56-99A8-41363D1DB4C9</string>
-				<key>modifiers</key>
-				<integer>524288</integer>
-				<key>modifiersubtext</key>
-				<string>Get name of file</string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
 				<string>F481CB40-5F73-4B5D-81E2-6C1CC8738DF9</string>
 				<key>modifiers</key>
 				<integer>0</integer>
@@ -99,19 +89,6 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>6370D5BD-C1C2-4A63-8E93-B2AC32C8CAC9</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>16EC7338-CE7B-4C56-99A8-41363D1DB4C9</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>E1849ACF-9B60-425C-881C-FCA639BD9ACF</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -290,16 +267,6 @@
 				<integer>262144</integer>
 				<key>modifiersubtext</key>
 				<string>Trash file</string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>16EC7338-CE7B-4C56-99A8-41363D1DB4C9</string>
-				<key>modifiers</key>
-				<integer>524288</integer>
-				<key>modifiersubtext</key>
-				<string>Get name of file</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -717,19 +684,6 @@
 				<false/>
 			</dict>
 		</array>
-		<key>E1849ACF-9B60-425C-881C-FCA639BD9ACF</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>E0B00032-AC63-487D-9637-FB56E38B46F6</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>E5A08EF1-CBCE-46A5-9712-4CB6DC33292E</key>
 		<array>
 			<dict>
@@ -963,7 +917,7 @@
 			<key>config</key>
 			<dict>
 				<key>triggerid</key>
-				<string>xcode</string>
+				<string>search xcode files</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.trigger.external</string>
@@ -1090,7 +1044,7 @@ fi</string>
 			<key>config</key>
 			<dict>
 				<key>triggerid</key>
-				<string>playgrounds</string>
+				<string>search playground files</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.trigger.external</string>
@@ -1295,7 +1249,7 @@ fi</string>
 			<key>config</key>
 			<dict>
 				<key>triggerid</key>
-				<string>sketch</string>
+				<string>search sketch files</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.trigger.external</string>
@@ -1409,7 +1363,7 @@ fi</string>
 			<key>config</key>
 			<dict>
 				<key>triggerid</key>
-				<string>tex</string>
+				<string>search tex files</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.trigger.external</string>
@@ -1421,67 +1375,8 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>autopaste</key>
-				<false/>
-				<key>clipboardtext</key>
-				<string>{query}</string>
-				<key>transient</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
-			<key>uid</key>
-			<string>E0B00032-AC63-487D-9637-FB56E38B46F6</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string># Extract file name from a given path removing prefixes.
-# i.e. Given /Users/nikivi/Documents/books/b. daniel kahneman - thinking, fast and slow.pdf
-# =&gt; daniel kahneman - thinking, fast and slow.pdf
-
-# Get path to file
-file="$1"
-
-# Get file name from given path
-file=$(basename "$file" .pdf)
-
-# Remove dotted prefix if it exists (b. name =&gt; name)
-echo -n ${file#?. }</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>E1849ACF-9B60-425C-881C-FCA639BD9ACF</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.junction</string>
-			<key>uid</key>
-			<string>16EC7338-CE7B-4C56-99A8-41363D1DB4C9</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>triggerid</key>
-				<string>paw</string>
+				<string>search paw files</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.trigger.external</string>
@@ -1661,7 +1556,7 @@ echo -n ${file#?. }</string>
 			<key>config</key>
 			<dict>
 				<key>triggerid</key>
-				<string>numbers</string>
+				<string>search numbers files</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.trigger.external</string>
@@ -1780,7 +1675,7 @@ echo -n ${file#?. }</string>
 			<key>config</key>
 			<dict>
 				<key>triggerid</key>
-				<string>PDF</string>
+				<string>search PDF files</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.trigger.external</string>
@@ -1793,7 +1688,7 @@ echo -n ${file#?. }</string>
 			<key>config</key>
 			<dict>
 				<key>triggerid</key>
-				<string>pages</string>
+				<string>search pages files</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.trigger.external</string>
@@ -1897,7 +1792,7 @@ echo -n ${file#?. }</string>
 			<key>config</key>
 			<dict>
 				<key>triggerid</key>
-				<string>mindnode</string>
+				<string>search mindnode files</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.trigger.external</string>
@@ -2018,7 +1913,7 @@ echo -n ${file#?. }</string>
 			<key>config</key>
 			<dict>
 				<key>triggerid</key>
-				<string>library</string>
+				<string>search library files</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.trigger.external</string>
@@ -2200,7 +2095,7 @@ echo -n ${file#?. }</string>
 			<key>config</key>
 			<dict>
 				<key>triggerid</key>
-				<string>epub</string>
+				<string>search epub files</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.trigger.external</string>
@@ -2304,7 +2199,7 @@ echo -n ${file#?. }</string>
 			<key>config</key>
 			<dict>
 				<key>triggerid</key>
-				<string>soulver</string>
+				<string>search soulver files</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.trigger.external</string>
@@ -2317,7 +2212,7 @@ echo -n ${file#?. }</string>
 			<key>config</key>
 			<dict>
 				<key>openwith</key>
-				<string>/Applications/Pixelmator.app</string>
+				<string></string>
 				<key>sourcefile</key>
 				<string></string>
 			</dict>
@@ -2332,7 +2227,7 @@ echo -n ${file#?. }</string>
 			<key>config</key>
 			<dict>
 				<key>triggerid</key>
-				<string>pix</string>
+				<string>search pixelmator files</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.trigger.external</string>
@@ -2411,7 +2306,7 @@ echo -n ${file#?. }</string>
 			<key>config</key>
 			<dict>
 				<key>openwith</key>
-				<string>/Applications/Ulysses.app</string>
+				<string></string>
 				<key>sourcefile</key>
 				<string></string>
 			</dict>
@@ -2426,7 +2321,7 @@ echo -n ${file#?. }</string>
 			<key>config</key>
 			<dict>
 				<key>triggerid</key>
-				<string>ulysses groups</string>
+				<string>search ulysses groups</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.trigger.external</string>
@@ -2556,7 +2451,7 @@ echo -n ${file#?. }</string>
 			<key>config</key>
 			<dict>
 				<key>openwith</key>
-				<string>/Applications/Ulysses.app</string>
+				<string></string>
 				<key>sourcefile</key>
 				<string></string>
 			</dict>
@@ -2635,7 +2530,7 @@ echo -n ${file#?. }</string>
 			<key>config</key>
 			<dict>
 				<key>openwith</key>
-				<string>/Applications/Ulysses.app</string>
+				<string></string>
 				<key>sourcefile</key>
 				<string></string>
 			</dict>
@@ -2650,7 +2545,7 @@ echo -n ${file#?. }</string>
 			<key>config</key>
 			<dict>
 				<key>triggerid</key>
-				<string>ulysses sheets</string>
+				<string>search ulysses sheets</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.trigger.external</string>
@@ -2768,7 +2663,7 @@ echo -n ${file#?. }</string>
 			<key>config</key>
 			<dict>
 				<key>openwith</key>
-				<string>/Applications/Ulysses.app</string>
+				<string></string>
 				<key>sourcefile</key>
 				<string></string>
 			</dict>
@@ -2834,7 +2729,7 @@ echo -n ${file#?. }</string>
 			<key>config</key>
 			<dict>
 				<key>openwith</key>
-				<string>/Applications/Ulysses.app</string>
+				<string></string>
 				<key>sourcefile</key>
 				<string></string>
 			</dict>
@@ -2943,13 +2838,6 @@ Post any issues and feature requests you have there. 💜</string>
 			<integer>570</integer>
 			<key>ypos</key>
 			<integer>2110</integer>
-		</dict>
-		<key>16EC7338-CE7B-4C56-99A8-41363D1DB4C9</key>
-		<dict>
-			<key>xpos</key>
-			<integer>770</integer>
-			<key>ypos</key>
-			<integer>540</integer>
 		</dict>
 		<key>17360B10-3B59-4E14-A43D-D426631B0E0D</key>
 		<dict>
@@ -3270,28 +3158,12 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>ypos</key>
 			<integer>1370</integer>
 		</dict>
-		<key>E0B00032-AC63-487D-9637-FB56E38B46F6</key>
-		<dict>
-			<key>xpos</key>
-			<integer>1020</integer>
-			<key>ypos</key>
-			<integer>510</integer>
-		</dict>
 		<key>E1827A97-E97E-4721-BCA8-0C0ADA466A3C</key>
 		<dict>
 			<key>xpos</key>
 			<integer>370</integer>
 			<key>ypos</key>
 			<integer>1110</integer>
-		</dict>
-		<key>E1849ACF-9B60-425C-881C-FCA639BD9ACF</key>
-		<dict>
-			<key>note</key>
-			<string>Extract file name (cutting the prefix)</string>
-			<key>xpos</key>
-			<integer>850</integer>
-			<key>ypos</key>
-			<integer>510</integer>
 		</dict>
 		<key>E5A08EF1-CBCE-46A5-9712-4CB6DC33292E</key>
 		<dict>
@@ -3372,7 +3244,7 @@ Post any issues and feature requests you have there. 💜</string>
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>1.2</string>
+	<string>1.3</string>
 	<key>webaddress</key>
 	<string>https://github.com/nikitavoloboev/small-workflows/blob/master/search-files#readme</string>
 </dict>

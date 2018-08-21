@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>nikivi.search-folders</string>
+	<string>nikivi.search.folders</string>
 	<key>category</key>
 	<string>Mine</string>
 	<key>connections</key>
@@ -336,7 +336,7 @@ fi</string>
 			<key>config</key>
 			<dict>
 				<key>triggerid</key>
-				<string>search</string>
+				<string>search folders</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.trigger.external</string>
@@ -515,7 +515,7 @@ Post any issues and feature requests you have there. 💜</string>
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>1.4</string>
+	<string>1.5</string>
 	<key>webaddress</key>
 	<string>https://github.com/nikitavoloboev/small-workflows/blob/master/folder-search#readme</string>
 </dict>

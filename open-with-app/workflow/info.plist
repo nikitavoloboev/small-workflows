@@ -47,50 +47,11 @@
 				<false/>
 			</dict>
 		</array>
-		<key>45989721-9E50-4BEC-8362-08BE847F2475</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>F1B37529-2069-4273-94D0-C55E8A2D0B7A</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>6A35064F-F59F-430A-BEB9-795292D9F300</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>CA8F9A11-5256-4EF2-9113-A146104AD853</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>B65381DC-D719-4F11-83D2-F022FDA8CA8F</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
 				<string>CA8F9A11-5256-4EF2-9113-A146104AD853</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>BF2D5DFE-38FF-4077-A341-4E0BEFDF94E2</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>6A35064F-F59F-430A-BEB9-795292D9F300</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -119,19 +80,6 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>3B95E8DC-40AF-4C0C-B9B3-01EB0FD63E1A</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>F1B37529-2069-4273-94D0-C55E8A2D0B7A</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>CA8F9A11-5256-4EF2-9113-A146104AD853</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -191,12 +139,12 @@
 				<key>filetypes</key>
 				<array/>
 				<key>name</key>
-				<string>Affinity</string>
+				<string>Marked 2</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.trigger.action</string>
 			<key>uid</key>
-			<string>BF2D5DFE-38FF-4077-A341-4E0BEFDF94E2</string>
+			<string>C96CE88F-544B-4BEB-87E7-FD6BD4E856FD</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -204,14 +152,14 @@
 			<key>config</key>
 			<dict>
 				<key>openwith</key>
-				<string>/Applications/Affinity Photo.app</string>
+				<string>/Applications/Marked 2.app</string>
 				<key>sourcefile</key>
 				<string></string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.openfile</string>
 			<key>uid</key>
-			<string>6A35064F-F59F-430A-BEB9-795292D9F300</string>
+			<string>115CB874-1FC9-4D18-A63E-B686A43F8649</string>
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
@@ -317,70 +265,6 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>acceptsmulti</key>
-				<true/>
-				<key>filetypes</key>
-				<array/>
-				<key>name</key>
-				<string>Marked 2</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.action</string>
-			<key>uid</key>
-			<string>C96CE88F-544B-4BEB-87E7-FD6BD4E856FD</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>openwith</key>
-				<string>/Applications/Marked 2.app</string>
-				<key>sourcefile</key>
-				<string></string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openfile</string>
-			<key>uid</key>
-			<string>115CB874-1FC9-4D18-A63E-B686A43F8649</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>acceptsmulti</key>
-				<true/>
-				<key>filetypes</key>
-				<array/>
-				<key>name</key>
-				<string>Pixelmator</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.action</string>
-			<key>uid</key>
-			<string>45989721-9E50-4BEC-8362-08BE847F2475</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>openwith</key>
-				<string>/Applications/Pixelmator.app</string>
-				<key>sourcefile</key>
-				<string></string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openfile</string>
-			<key>uid</key>
-			<string>F1B37529-2069-4273-94D0-C55E8A2D0B7A</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>openwith</key>
 				<string>/Applications/Sublime Text.app</string>
 				<key>sourcefile</key>
@@ -426,23 +310,23 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>note</key>
 			<string>OneUpdater</string>
 			<key>xpos</key>
-			<integer>520</integer>
+			<integer>480</integer>
 			<key>ypos</key>
-			<integer>210</integer>
+			<integer>130</integer>
 		</dict>
 		<key>115CB874-1FC9-4D18-A63E-B686A43F8649</key>
 		<dict>
 			<key>xpos</key>
 			<integer>200</integer>
 			<key>ypos</key>
-			<integer>290</integer>
+			<integer>130</integer>
 		</dict>
 		<key>3AF332F9-4AE3-4396-9785-78B0677A29CB</key>
 		<dict>
 			<key>xpos</key>
 			<integer>10</integer>
 			<key>ypos</key>
-			<integer>560</integer>
+			<integer>260</integer>
 		</dict>
 		<key>3B95E8DC-40AF-4C0C-B9B3-01EB0FD63E1A</key>
 		<dict>
@@ -451,47 +335,26 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>ypos</key>
 			<integer>10</integer>
 		</dict>
-		<key>45989721-9E50-4BEC-8362-08BE847F2475</key>
-		<dict>
-			<key>xpos</key>
-			<integer>10</integer>
-			<key>ypos</key>
-			<integer>430</integer>
-		</dict>
-		<key>6A35064F-F59F-430A-BEB9-795292D9F300</key>
-		<dict>
-			<key>xpos</key>
-			<integer>200</integer>
-			<key>ypos</key>
-			<integer>150</integer>
-		</dict>
 		<key>B65381DC-D719-4F11-83D2-F022FDA8CA8F</key>
 		<dict>
 			<key>xpos</key>
 			<integer>200</integer>
 			<key>ypos</key>
-			<integer>560</integer>
-		</dict>
-		<key>BF2D5DFE-38FF-4077-A341-4E0BEFDF94E2</key>
-		<dict>
-			<key>xpos</key>
-			<integer>10</integer>
-			<key>ypos</key>
-			<integer>150</integer>
+			<integer>260</integer>
 		</dict>
 		<key>C96CE88F-544B-4BEB-87E7-FD6BD4E856FD</key>
 		<dict>
 			<key>xpos</key>
 			<integer>10</integer>
 			<key>ypos</key>
-			<integer>290</integer>
+			<integer>130</integer>
 		</dict>
 		<key>CA8F9A11-5256-4EF2-9113-A146104AD853</key>
 		<dict>
 			<key>xpos</key>
-			<integer>410</integer>
+			<integer>390</integer>
 			<key>ypos</key>
-			<integer>240</integer>
+			<integer>160</integer>
 		</dict>
 		<key>E5CF2D70-1E75-4F8C-AD05-1FCCB7CFAF78</key>
 		<dict>
@@ -500,16 +363,9 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>ypos</key>
 			<integer>10</integer>
 		</dict>
-		<key>F1B37529-2069-4273-94D0-C55E8A2D0B7A</key>
-		<dict>
-			<key>xpos</key>
-			<integer>200</integer>
-			<key>ypos</key>
-			<integer>430</integer>
-		</dict>
 	</dict>
 	<key>version</key>
-	<string>1.1</string>
+	<string>1.2</string>
 	<key>webaddress</key>
 	<string>https://github.com/nikitavoloboev/small-workflows/blob/master/open-with-app#readme</string>
 </dict>

@@ -181,7 +181,7 @@ fi</string>
 			<key>config</key>
 			<dict>
 				<key>triggerid</key>
-				<string>localhost</string>
+				<string>open local port</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.trigger.external</string>
@@ -306,7 +306,7 @@ Post any issues and feature requests you have there. 💜</string>
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>1.1</string>
+	<string>1.2</string>
 	<key>webaddress</key>
 	<string>https://github.com/nikitavoloboev/small-workflows/blob/master/local-host#readme</string>
 </dict>

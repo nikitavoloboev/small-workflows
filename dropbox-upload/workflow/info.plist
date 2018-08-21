@@ -264,6 +264,23 @@ cd ~/Dropbox/Scripts
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>acceptsmulti</key>
+				<false/>
+				<key>filetypes</key>
+				<array/>
+				<key>name</key>
+				<string>Dropbox share</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.action</string>
+			<key>uid</key>
+			<string>35D00EDF-50E8-40D2-BCDA-A28F93E41215</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -355,17 +372,17 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>acceptsmulti</key>
-				<false/>
-				<key>filetypes</key>
-				<array/>
-				<key>name</key>
-				<string>Dropbox share</string>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>dl=0</string>
+				<key>replacestring</key>
+				<string>dl=1</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.trigger.action</string>
+			<string>alfred.workflow.utility.replace</string>
 			<key>uid</key>
-			<string>35D00EDF-50E8-40D2-BCDA-A28F93E41215</string>
+			<string>1638A3EC-E376-46A0-87F9-62D96B9B67C9</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -402,17 +419,13 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>matchmode</key>
-				<integer>0</integer>
-				<key>matchstring</key>
-				<string>dl=0</string>
-				<key>replacestring</key>
-				<string>dl=1</string>
+				<key>triggerid</key>
+				<string>search dropbox shares</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.utility.replace</string>
+			<string>alfred.workflow.trigger.external</string>
 			<key>uid</key>
-			<string>1638A3EC-E376-46A0-87F9-62D96B9B67C9</string>
+			<string>A3A99DB0-F5E0-4797-896A-40F3BD4DE97F</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -478,36 +491,6 @@ echo "&lt;/items&gt;"</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>triggerid</key>
-				<string>dropbox</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.external</string>
-			<key>uid</key>
-			<string>A3A99DB0-F5E0-4797-896A-40F3BD4DE97F</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>autopaste</key>
-				<false/>
-				<key>clipboardtext</key>
-				<string>{query}</string>
-				<key>transient</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
-			<key>uid</key>
-			<string>851614DC-D34D-4330-BEBA-32DA10941556</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -538,26 +521,19 @@ cd ~/Dropbox/Scripts
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>json</key>
-				<string>{
-  "alfredworkflow" : {
-    "arg" : "{query}",
-    "config" : {
-      "title" : "",
-      "runningsubtext" : "",
-      "subtext" : ""
-    },
-    "variables" : {
-    }
-  }
-}</string>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>transient</key>
+				<false/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.utility.json</string>
+			<string>alfred.workflow.output.clipboard</string>
 			<key>uid</key>
-			<string>CF0C6BC4-15EF-4874-8509-3A5D4E7DCCBD</string>
+			<string>851614DC-D34D-4330-BEBA-32DA10941556</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -603,6 +579,30 @@ cd ~/Dropbox/Scripts
 			<string>alfred.workflow.utility.replace</string>
 			<key>uid</key>
 			<string>496C289A-4374-4E26-A15C-C0D0DE8668BD</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>json</key>
+				<string>{
+  "alfredworkflow" : {
+    "arg" : "{query}",
+    "config" : {
+      "title" : "",
+      "runningsubtext" : "",
+      "subtext" : ""
+    },
+    "variables" : {
+    }
+  }
+}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.json</string>
+			<key>uid</key>
+			<string>CF0C6BC4-15EF-4874-8509-3A5D4E7DCCBD</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -820,7 +820,7 @@ Post any issues and feature requests you have there. 💜</string>
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>1.2</string>
+	<string>1.3</string>
 	<key>webaddress</key>
 	<string>https://github.com/nikitavoloboev/small-workflows/blob/master/dropbox-upload#readme</string>
 </dict>

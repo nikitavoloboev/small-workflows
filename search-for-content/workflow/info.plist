@@ -5,7 +5,7 @@
 	<key>bundleid</key>
 	<string>nikivi.search-for-content</string>
 	<key>category</key>
-	<string>Productivity</string>
+	<string>Tools</string>
 	<key>connections</key>
 	<dict>
 		<key>0C01D1C4-FA11-41DF-B428-97CFC978E16A</key>
@@ -114,50 +114,11 @@
 				<false/>
 			</dict>
 		</array>
-		<key>E79F3F4C-9E36-4396-8905-BE068CE76844</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>F4221017-5D02-4BF8-9521-3DFE327BFE80</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>EC970D1C-4499-418D-A85E-D57AC07E459E</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
 				<string>43960CF9-3361-45B3-A594-559B4B1ACA3F</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>F1384023-BE2A-4D28-8DAE-C399E4AB9A29</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>676993E7-2FC9-4BFD-BA94-4B247BDA495F</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>F4221017-5D02-4BF8-9521-3DFE327BFE80</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>F1384023-BE2A-4D28-8DAE-C399E4AB9A29</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -194,7 +155,7 @@
 			<key>config</key>
 			<dict>
 				<key>triggerid</key>
-				<string>mindnode</string>
+				<string>search mindnode</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.trigger.external</string>
@@ -416,7 +377,7 @@ fi</string>
 			<key>config</key>
 			<dict>
 				<key>triggerid</key>
-				<string>PDF</string>
+				<string>search PDF</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.trigger.external</string>
@@ -577,78 +538,12 @@ fi</string>
 			<key>config</key>
 			<dict>
 				<key>triggerid</key>
-				<string>contacts</string>
+				<string>search contacts</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.trigger.external</string>
 			<key>uid</key>
 			<string>FBB29EE6-5791-4967-BB72-34726D0FCB06</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>count</key>
-				<integer>1</integer>
-				<key>keychar</key>
-				<string>g</string>
-				<key>keycode</key>
-				<integer>-1</integer>
-				<key>keymod</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.dispatchkeycombo</string>
-			<key>uid</key>
-			<string>F1384023-BE2A-4D28-8DAE-C399E4AB9A29</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>count</key>
-				<integer>1</integer>
-				<key>keychar</key>
-				<string>↩</string>
-				<key>keycode</key>
-				<integer>36</integer>
-				<key>keymod</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.dispatchkeycombo</string>
-			<key>uid</key>
-			<string>676993E7-2FC9-4BFD-BA94-4B247BDA495F</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>openwith</key>
-				<string></string>
-				<key>sourcefile</key>
-				<string></string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openfile</string>
-			<key>uid</key>
-			<string>E79F3F4C-9E36-4396-8905-BE068CE76844</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>seconds</key>
-				<string>0.1</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.delay</string>
-			<key>uid</key>
-			<string>F4221017-5D02-4BF8-9521-3DFE327BFE80</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -696,13 +591,6 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>ypos</key>
 			<integer>290</integer>
 		</dict>
-		<key>676993E7-2FC9-4BFD-BA94-4B247BDA495F</key>
-		<dict>
-			<key>xpos</key>
-			<integer>780</integer>
-			<key>ypos</key>
-			<integer>540</integer>
-		</dict>
 		<key>6D57C744-41AD-44F3-B941-863B242D62B6</key>
 		<dict>
 			<key>xpos</key>
@@ -731,35 +619,12 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>ypos</key>
 			<integer>30</integer>
 		</dict>
-		<key>E79F3F4C-9E36-4396-8905-BE068CE76844</key>
-		<dict>
-			<key>note</key>
-			<string>Open GitHub url of user (if exists)</string>
-			<key>xpos</key>
-			<integer>410</integer>
-			<key>ypos</key>
-			<integer>540</integer>
-		</dict>
 		<key>EC970D1C-4499-418D-A85E-D57AC07E459E</key>
 		<dict>
 			<key>xpos</key>
 			<integer>390</integer>
 			<key>ypos</key>
 			<integer>30</integer>
-		</dict>
-		<key>F1384023-BE2A-4D28-8DAE-C399E4AB9A29</key>
-		<dict>
-			<key>xpos</key>
-			<integer>630</integer>
-			<key>ypos</key>
-			<integer>540</integer>
-		</dict>
-		<key>F4221017-5D02-4BF8-9521-3DFE327BFE80</key>
-		<dict>
-			<key>xpos</key>
-			<integer>560</integer>
-			<key>ypos</key>
-			<integer>570</integer>
 		</dict>
 		<key>FBB29EE6-5791-4967-BB72-34726D0FCB06</key>
 		<dict>
@@ -781,7 +646,7 @@ Post any issues and feature requests you have there. 💜</string>
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>1.1</string>
+	<string>1.2</string>
 	<key>webaddress</key>
 	<string>https://github.com/nikitavoloboev/small-workflows/blob/master/search-for-content#readme</string>
 </dict>

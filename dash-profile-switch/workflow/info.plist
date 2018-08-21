@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>nikivi.dash-profiles</string>
+	<string>nikivi.dash.profiles</string>
 	<key>category</key>
 	<string>Mine</string>
 	<key>connections</key>
@@ -190,7 +190,7 @@ fi</string>
 			<key>config</key>
 			<dict>
 				<key>triggerid</key>
-				<string>switch</string>
+				<string>switch dash profile</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.trigger.external</string>
@@ -244,7 +244,7 @@ Post any issues and feature requests you have there. 💜</string>
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>1.1</string>
+	<string>1.2</string>
 	<key>webaddress</key>
 	<string>https://github.com/nikitavoloboev/small-workflows/blob/master/dash-profile-switch#readme</string>
 </dict>

@@ -17,7 +17,7 @@
 - [Dictionary](dictionary#readme) - Search through dictionary.
 - [Useful utilities](useful-utilities#readme) - Only has one utility, to search selected text in Alfred.
 - [Month numbers](month-numbers#readme) - Search for a month and copy the month number to your clipboard.
-- [Clean Folders](clean-folders#readme) - Trash items from Desktop and clean certain folders like removing .alfredworkflows from ~/Downloads.
+- [Clean Folders](clean-folders#readme) - Trash items from Desktop and clean certain folders.
 - [Folder Search](folder-search#readme) - Search folders from Alfred and open them in Finder/iTerm/Editor.
 - [File Actions](file-actions#readme) - Various file actions I made to operate on files and folders.
 - [Go to Subreddit](goto-subreddit#readme) - Go to a subreddit that you specify. For searching subreddits, use [this](https://github.com/deanishe/alfred-reddit).

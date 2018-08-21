@@ -13,9 +13,7 @@
 - [Search Selection](search-selection#readme) - Search selected text on various websites with hotkeys.
 - [Search for Content](search-for-content#readme) - Actions to search through the insides of PDF and MindNode documents as well as Contacts.
 - [WiFi Tools](wifi-tools#readme) - Check WiFi connection / Restart WiFi / Toggle it on/off.
-- [Keyboard control](keyboard-control#readme) - Turn your keyboard on and off.
 - [Go play](go-play#readme) - Create [Go Playground](https://play.golang.org) from selected Go code for sharing.
-- [Focus](focus#readme) - Start [Focus](https://heyfocus.com) blocking for some time that you specify.
 - [Dictionary](dictionary#readme) - Search through dictionary.
 - [Useful utilities](useful-utilities#readme) - Only has one utility, to search selected text in Alfred.
 - [Month numbers](month-numbers#readme) - Search for a month and copy the month number to your clipboard.

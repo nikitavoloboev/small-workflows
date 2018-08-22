@@ -21,6 +21,7 @@
 - [Folder Search](folder-search#readme) - Search folders from Alfred and open them in Finder/iTerm/Editor.
 - [File Actions](file-actions#readme) - Various file actions I made to operate on files and folders.
 - [Go to Subreddit](goto-subreddit#readme) - Go to a subreddit that you specify. For searching subreddits, use [this](https://github.com/deanishe/alfred-reddit).
+- [Focus](focus#readme) - Start [Focus](https://heyfocus.com) blocking for some time that you specify.
 - [Dash Profile Switcher](dash-profile-switch#readme) - Search through your custom [Dash](https://kapeli.com/dash) profiles.
 - [Local host](local-host#readme) - Open port that you specify at local host.
 - [Objects library](objects-library#readme) - Useful premade objects for workflows.

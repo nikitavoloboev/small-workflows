@@ -12,7 +12,7 @@ You can then by calling the external trigger or with `todo` trigger write the ta
 
 In order to make sure I always keep my active TODO in mind, I display it on my TouchBar with [help of BetterTouchTool](https://github.com/nikitavoloboev/my-mac-os/tree/master/btt#readme).
 
-![](https://i.imgur.com/aVmpx3J.png)
+![](https://i.imgur.com/l9ueqja.png)
 
 There is also an action that will take selected text and put it as your active TODO. Or if you use [Keyboard Maestro](https://www.keyboardmaestro.com/main/), you can use [this macro](https://www.dropbox.com/s/mkn483urqme9hs2/Add%20selected%20text%20as%20todo.kmmacros?dl=1) to smartly grab text from various apps like 2Do tasks, Trello cards, or `TODO:`'s in code as well as any arbitrary text you want to make your active TODO.
 

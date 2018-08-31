@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>nikivi.wifi.workflow</string>
+	<string>nikivi.wifi.tools</string>
 	<key>category</key>
 	<string>Mine</string>
 	<key>connections</key>
@@ -35,18 +35,7 @@
 			</dict>
 		</array>
 		<key>43B64EC5-FE85-42BF-86C3-D9C131827A98</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>784CD9C9-3674-4819-B25F-032B8D6F3AF5</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
+		<array/>
 		<key>57284CBF-8EA2-402B-8348-F34F919BA81A</key>
 		<array>
 			<dict>
@@ -454,8 +443,6 @@ fi</string>
 			<integer>1</integer>
 		</dict>
 		<dict>
-			<key>config</key>
-			<dict/>
 			<key>type</key>
 			<string>alfred.workflow.utility.junction</string>
 			<key>uid</key>

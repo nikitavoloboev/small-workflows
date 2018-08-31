@@ -241,7 +241,7 @@ fi</string>
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
-				<string>Open focus preferences</string>
+				<string>Open Focus preferences</string>
 				<key>withspace</key>
 				<false/>
 			</dict>

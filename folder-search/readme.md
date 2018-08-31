@@ -7,7 +7,7 @@ You can also open the folders in the editors of your choice, for me those editor
 
 One of the modifier actions there (⌥ + ⏎) will open the README file inside the editor with an editor you specified (Sublime Text by default). I use this action a lot.
 
-![](https://i.imgur.com/IFILSSc.png)
+![](https://imgur.com/2M1QYBy)
 
 ## Contributing
 See [contribution guidelines](../CONTRIBUTING.md#readme).

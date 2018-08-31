@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>nikivi.search-for-content</string>
+	<string>nikivi.search.content</string>
 	<key>category</key>
-	<string>Tools</string>
+	<string>Mine</string>
 	<key>connections</key>
 	<dict>
 		<key>0C01D1C4-FA11-41DF-B428-97CFC978E16A</key>
@@ -148,7 +148,7 @@
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>Search for content</string>
+	<string>Search content</string>
 	<key>objects</key>
 	<array>
 		<dict>
@@ -283,8 +283,8 @@
 				<integer>0</integer>
 				<key>script</key>
 				<string># THESE VARIABLES MUST BE SET. SEE THE ONEUPDATER README FOR AN EXPLANATION OF EACH.
-readonly remote_info_plist="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/search-for-content/workflow/info.plist"
-readonly workflow_url="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/search-for-content/Search%20for%20content.alfredworkflow"
+readonly remote_info_plist="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/search-content/workflow/info.plist"
+readonly workflow_url="https://raw.githubusercontent.com/nikitavoloboev/small-workflows/master/search-for-content/Search%20content.alfredworkflow"
 readonly download_type='direct'
 readonly frequency_check='7'
 
@@ -646,8 +646,8 @@ Post any issues and feature requests you have there. 💜</string>
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>1.2</string>
+	<string>1.4</string>
 	<key>webaddress</key>
-	<string>https://github.com/nikitavoloboev/small-workflows/blob/master/search-for-content#readme</string>
+	<string>https://github.com/nikitavoloboev/small-workflows/blob/master/search-content#readme</string>
 </dict>
 </plist>

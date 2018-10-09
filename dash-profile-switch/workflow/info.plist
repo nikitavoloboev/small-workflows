@@ -148,7 +148,7 @@ fi</string>
 				<key>fixedorder</key>
 				<false/>
 				<key>items</key>
-				<string>[{"title":"Go","arg":"dash:\/\/go:"},{"title":"Python","arg":"dash:\/\/python:"},{"title":"All","arg":"dash:\/\/all:"},{"title":"Haskell","arg":"dash:\/\/haskell:"},{"title":"React","arg":"dash:\/\/react:"},{"title":"AwGo","arg":"dash:\/\/awgo:"},{"title":"Java","arg":"dash:\/\/java:"},{"title":"Node.js","arg":"dash:\/\/nodejs:"},{"title":"Hammerspoon","arg":"dash:\/\/hammerspoon:"},{"title":"LaTeX","arg":"dash:\/\/latex:"},{"title":"C","arg":"dash:\/\/cprof:"},{"title":"React + TypeScript","arg":"dash:\/\/reactts:","subtitle":""},{"title":"Ruby","arg":"dash:\/\/ruby:","subtitle":""},{"title":"JavaScript","arg":"dash:\/\/javascript:","subtitle":""},{"title":"TypeScript","arg":"dash:\/\/typescript:"}]</string>
+				<string>[{"title":"Go","arg":"dash:\/\/go:"},{"title":"Python","arg":"dash:\/\/python:"},{"title":"All","arg":"dash:\/\/all:"},{"title":"Haskell","arg":"dash:\/\/haskell:"},{"title":"React","arg":"dash:\/\/react:"},{"title":"AwGo","arg":"dash:\/\/awgo:"},{"title":"Java","arg":"dash:\/\/java:"},{"title":"Node.js","arg":"dash:\/\/nodejs:"},{"title":"Hammerspoon","arg":"dash:\/\/hammerspoon:"},{"title":"LaTeX","arg":"dash:\/\/latex:"},{"title":"C","arg":"dash:\/\/cprof:"},{"title":"React\/TypeScript","arg":"dash:\/\/reactts:","subtitle":""},{"title":"Ruby","arg":"dash:\/\/ruby:","subtitle":""},{"title":"JavaScript","arg":"dash:\/\/javascript:","subtitle":""},{"title":"TypeScript","arg":"dash:\/\/typescript:"}]</string>
 				<key>keyword</key>
 				<string>ds</string>
 				<key>runningsubtext</key>

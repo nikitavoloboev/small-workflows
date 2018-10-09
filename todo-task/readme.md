@@ -10,7 +10,7 @@ The way this workflow works is that it creates a small `todo` file the Alfred da
 
 You can then by calling the external trigger or with `todo` trigger write the task you want to work on and it will be added as active TODO.
 
-![](https://i.imgur.com/DHrI2gj.png)
+![](https://i.imgur.com/HMxFE9D.png)
 
 In order to make sure I always keep my active TODO in mind, I display it on my TouchBar with [help of BetterTouchTool](https://github.com/nikitavoloboev/my-mac-os/tree/master/btt#readme).
 

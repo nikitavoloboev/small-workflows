@@ -2,7 +2,7 @@
 
 > See time passed since your birthday
 
-<img src="https://i.imgur.com/VzONPAT.png" width="500" alt="img">
+<img src="https://i.imgur.com/R8A6OUr.png" width="500" alt="img">
 
 In order to use this workflow, you first have to set your birthday as Alfred environment variable here:
 

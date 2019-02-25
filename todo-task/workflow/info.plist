@@ -167,7 +167,7 @@
 	<key>createdby</key>
 	<string>Nikita Voloboev</string>
 	<key>description</key>
-	<string>Write a task and display it in middle of screen.</string>
+	<string>Write a task and display it on TouchBar, in middle of screen or menu bar</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
@@ -264,7 +264,7 @@ fi</string>
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
-				<string>Create task</string>
+				<string>{var:empty}</string>
 				<key>withspace</key>
 				<true/>
 			</dict>
@@ -627,7 +627,7 @@ Post any issues and feature requests you have there. 💜</string>
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>1.9</string>
+	<string>1.9.1</string>
 	<key>webaddress</key>
 	<string>https://github.com/nikitavoloboev/small-workflows/blob/master/todo-task#readme</string>
 </dict>

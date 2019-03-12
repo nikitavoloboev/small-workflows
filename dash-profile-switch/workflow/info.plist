@@ -48,18 +48,7 @@
 			</dict>
 		</array>
 		<key>F4FC387A-6A8C-4D96-A24D-8F246A74E01F</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>907B4929-BB14-415C-8FB9-1A07DF271C2A</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
+		<array/>
 	</dict>
 	<key>createdby</key>
 	<string>Nikita Voloboev</string>
@@ -172,7 +161,7 @@ fi</string>
 				<key>fixedorder</key>
 				<false/>
 				<key>items</key>
-				<string>[{"title":"Go","arg":"dash:\/\/go:"},{"title":"Python","arg":"dash:\/\/python:"},{"title":"All","arg":"dash:\/\/all:"},{"title":"Haskell","arg":"dash:\/\/haskell:"},{"title":"React","arg":"dash:\/\/react:"},{"title":"Go \/ AwGo \/ Kingpin","arg":"dash:\/\/go\/awgo\/kingpin:"},{"title":"Java","arg":"dash:\/\/java:"},{"title":"Node \/ JS","arg":"dash:\/\/node\/js:"},{"title":"Hammerspoon","arg":"dash:\/\/hammerspoon:"},{"title":"LaTeX","arg":"dash:\/\/latex:"},{"title":"C","arg":"dash:\/\/cprof:"},{"title":"React \/ TypeScript","arg":"dash:\/\/reactts:","subtitle":""},{"title":"Ruby","arg":"dash:\/\/ruby:","subtitle":""},{"title":"JS","arg":"dash:\/\/js\/:","subtitle":""},{"title":"JS \/ TS","arg":"dash:\/\/js\/ts:"},{"title":"JS \/ React","arg":"dash:\/\/js\/react:"},{"title":"React \/ Redux","arg":"dash:\/\/react\/redux:"},{"title":"CSS \/ JS \/ HTML","arg":"dash:\/\/css\/js\/html:"},{"title":"CSS","arg":"dash:\/\/css\/:"}]</string>
+				<string>[{"title":"Go","arg":"dash:\/\/pgo:"},{"title":"Python","arg":"dash:\/\/ppython:"}]</string>
 				<key>keyword</key>
 				<string>ds</string>
 				<key>runningsubtext</key>

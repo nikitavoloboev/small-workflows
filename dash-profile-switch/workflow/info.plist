@@ -161,7 +161,7 @@ fi</string>
 				<key>fixedorder</key>
 				<false/>
 				<key>items</key>
-				<string>[{"title":"Go","arg":"dash:\/\/pgo:"},{"title":"Python","arg":"dash:\/\/ppython:"}]</string>
+				<string>[{"title":"AwGo","arg":"dash:\/\/pawgo:"},{"title":"D3.js","arg":"dash:\/\/pd3:"}]</string>
 				<key>keyword</key>
 				<string>ds</string>
 				<key>runningsubtext</key>

@@ -1448,7 +1448,7 @@ fi</string>
 			<key>config</key>
 			<dict>
 				<key>triggerid</key>
-				<string>search hacker news</string>
+				<string>search hn</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.trigger.external</string>
@@ -1628,7 +1628,7 @@ fi</string>
 			<key>config</key>
 			<dict>
 				<key>triggerid</key>
-				<string>twitter</string>
+				<string>search twitter</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.trigger.external</string>

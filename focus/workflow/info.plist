@@ -22,7 +22,31 @@
 			</dict>
 		</array>
 		<key>593A7218-EA63-4807-92B5-62977944BB5C</key>
-		<array/>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>DFF78986-22C5-4BA5-B239-F70B8DD1B486</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>DA16BA53-317D-4790-986C-9FDA6903A436</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>4BC60BC5-7DB4-4603-941E-1AF131D5C534</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>DC4D64CD-8E80-440E-93E6-39ECDF9B9A67</key>
 		<array>
 			<dict>
@@ -70,27 +94,6 @@
 			<string>alfred.workflow.trigger.external</string>
 			<key>uid</key>
 			<string>DC4D64CD-8E80-440E-93E6-39ECDF9B9A67</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>focus</string>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string>Focus for {query} minutes</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>44369872-5E47-44C9-8556-8AA941F51BC6</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -188,6 +191,27 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>focus</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Focus for {query} minutes</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>44369872-5E47-44C9-8556-8AA941F51BC6</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -241,7 +265,7 @@ fi</string>
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
-				<string>Open Focus preferences</string>
+				<string>Open focus preferences</string>
 				<key>withspace</key>
 				<false/>
 			</dict>
@@ -251,6 +275,50 @@ fi</string>
 			<string>E98490E1-AD11-4855-86EC-56DA98B100EF</string>
 			<key>version</key>
 			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>unfocus</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Stop focusing</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>DA16BA53-317D-4790-986C-9FDA6903A436</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>open focus://unfocus</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>4BC60BC5-7DB4-4603-941E-1AF131D5C534</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 	</array>
 	<key>readme</key>
@@ -277,12 +345,26 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>ypos</key>
 			<integer>10</integer>
 		</dict>
+		<key>4BC60BC5-7DB4-4603-941E-1AF131D5C534</key>
+		<dict>
+			<key>xpos</key>
+			<integer>210</integer>
+			<key>ypos</key>
+			<integer>335</integer>
+		</dict>
 		<key>593A7218-EA63-4807-92B5-62977944BB5C</key>
 		<dict>
 			<key>xpos</key>
 			<integer>380</integer>
 			<key>ypos</key>
 			<integer>10</integer>
+		</dict>
+		<key>DA16BA53-317D-4790-986C-9FDA6903A436</key>
+		<dict>
+			<key>xpos</key>
+			<integer>40</integer>
+			<key>ypos</key>
+			<integer>335</integer>
 		</dict>
 		<key>DC4D64CD-8E80-440E-93E6-39ECDF9B9A67</key>
 		<dict>

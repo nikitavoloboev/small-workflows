@@ -10,6 +10,19 @@
 	<dict>
 		<key>0072C59D-3BEB-4DD7-94D3-C8EE2846B2A1</key>
 		<array/>
+		<key>15101BC7-D97A-4FB2-9395-A7AD893544A8</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A01F674A-AF96-4863-83D9-402E28CAED8B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>1E07DCA9-9A95-48B4-AD53-11ACDAC37663</key>
 		<array>
 			<dict>
@@ -17,6 +30,16 @@
 				<string>0072C59D-3BEB-4DD7-94D3-C8EE2846B2A1</string>
 				<key>modifiers</key>
 				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>15101BC7-D97A-4FB2-9395-A7AD893544A8</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
 				<key>modifiersubtext</key>
 				<string></string>
 				<key>vitoclose</key>
@@ -76,23 +99,38 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>todo</string>
-				<key>subtext</key>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string># Create the data dir and TODO file if it doesn't exist already
+if [ ! -d ~/Library/Application\ Support/Alfred/Workflow\ Data/nikivi.todo.task ]; then
+	mkdir ~/Library/Application\ Support/Alfred/Workflow\ Data/nikivi.todo.task    
+	touch ~/Library/Application\ Support/Alfred/Workflow\ Data/nikivi.todo.task/todo
+fi
+
+# cd to to the Alfred dir
+cd ~/Library/Application\ Support/Alfred/Workflow\ Data/nikivi.todo.task
+
+# Remove the file
+rm -rf todo 
+
+# Write the TODO task to the file
+echo -e "$1" &gt; todo</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
 				<string></string>
-				<key>text</key>
-				<string>{var:empty}</string>
-				<key>withspace</key>
-				<true/>
+				<key>type</key>
+				<integer>0</integer>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
+			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>1E07DCA9-9A95-48B4-AD53-11ACDAC37663</string>
+			<string>0072C59D-3BEB-4DD7-94D3-C8EE2846B2A1</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -188,38 +226,23 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string># Create the data dir and TODO file if it doesn't exist already
-if [ ! -d ~/Library/Application\ Support/Alfred\ 3/Workflow\ Data/nikivi.todo.task ]; then
-	mkdir ~/Library/Application\ Support/Alfred\ 3/Workflow\ Data/nikivi.todo.task    
-	touch ~/Library/Application\ Support/Alfred\ 3/Workflow\ Data/nikivi.todo.task/todo
-fi
-
-# cd to to the Alfred dir
-cd ~/Library/Application\ Support/Alfred\ 3/Workflow\ Data/nikivi.todo.task
-
-# Remove the file
-rm -rf todo 
-
-# Write the TODO task to the file
-echo -e "$1" &gt; todo</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
+				<key>argumenttype</key>
 				<integer>0</integer>
+				<key>keyword</key>
+				<string>todo</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>{var:empty}</string>
+				<key>withspace</key>
+				<true/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.script</string>
+			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
-			<string>0072C59D-3BEB-4DD7-94D3-C8EE2846B2A1</string>
+			<string>1E07DCA9-9A95-48B4-AD53-11ACDAC37663</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -252,13 +275,66 @@ echo -e "$1" &gt; todo</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string># Create the data dir and TODO file if it doesn't exist already
+if [ ! -d ~/Library/Application\ Support/Alfred/Workflow\ Data/nikivi.todo.task ]; then
+	mkdir ~/Library/Application\ Support/Alfred/Workflow\ Data/nikivi.todo.task    
+	touch ~/Library/Application\ Support/Alfred/Workflow\ Data/nikivi.todo.task/todo
+fi
+
+# cd to to the Alfred dir
+cd ~/Library/Application\ Support/Alfred/Workflow\ Data/nikivi.todo.task
+
+# Remove the file
+rm -rf todo 
+
+# Write the TODO task to the file
+echo -e "$1" &gt; todo</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>15101BC7-D97A-4FB2-9395-A7AD893544A8</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>applescript</key>
+				<string>on alfred_script(q)
+tell application "Keyboard Maestro Engine" to do script "Move active todo to MindNode"
+end alfred_script</string>
+				<key>cachescript</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.applescript</string>
+			<key>uid</key>
+			<string>A01F674A-AF96-4863-83D9-402E28CAED8B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string>Details on how to use this workflow are found in the GitHub repo attached to the workflow. 
 
 Double click this workflow in sidebar -&gt; Open website.
 
-Post any issues and feature requests you have there. 💜</string>
+Post any issues and feature requests you have there. 💚</string>
 	<key>uidata</key>
 	<dict>
 		<key>0072C59D-3BEB-4DD7-94D3-C8EE2846B2A1</key>
@@ -266,9 +342,18 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>note</key>
 			<string>Create TODO</string>
 			<key>xpos</key>
-			<integer>360</integer>
+			<integer>380</integer>
 			<key>ypos</key>
 			<integer>30</integer>
+		</dict>
+		<key>15101BC7-D97A-4FB2-9395-A7AD893544A8</key>
+		<dict>
+			<key>note</key>
+			<string>create TODO in MindNode</string>
+			<key>xpos</key>
+			<integer>380</integer>
+			<key>ypos</key>
+			<integer>180</integer>
 		</dict>
 		<key>1E07DCA9-9A95-48B4-AD53-11ACDAC37663</key>
 		<dict>
@@ -293,6 +378,13 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>ypos</key>
 			<integer>160</integer>
 		</dict>
+		<key>A01F674A-AF96-4863-83D9-402E28CAED8B</key>
+		<dict>
+			<key>xpos</key>
+			<integer>545</integer>
+			<key>ypos</key>
+			<integer>180</integer>
+		</dict>
 		<key>B6A4F1AB-CFED-47B3-8BE3-7FE2595A3737</key>
 		<dict>
 			<key>colorindex</key>
@@ -300,13 +392,15 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>note</key>
 			<string>OneUpdater</string>
 			<key>xpos</key>
-			<integer>550</integer>
+			<integer>545</integer>
 			<key>ypos</key>
 			<integer>30</integer>
 		</dict>
 	</dict>
+	<key>variablesdontexport</key>
+	<array/>
 	<key>version</key>
-	<string>1.9.2</string>
+	<string>1.9.3</string>
 	<key>webaddress</key>
 	<string>https://github.com/nikitavoloboev/small-workflows/blob/master/todo-task#readme</string>
 </dict>

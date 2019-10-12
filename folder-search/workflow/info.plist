@@ -10,11 +10,24 @@
 	<dict>
 		<key>03377977-4206-4DE4-B59C-45AAD4A0980A</key>
 		<array/>
-		<key>C34E01D2-E55A-4908-8A98-3DE22A77AA48</key>
+		<key>BEDF7EC9-9327-4967-876A-A6F5F4303055</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
 				<string>CAD232B5-6B26-4DB8-B878-BD157C8296F0</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>C34E01D2-E55A-4908-8A98-3DE22A77AA48</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>BEDF7EC9-9327-4967-876A-A6F5F4303055</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -310,10 +323,14 @@ fi</string>
 				<false/>
 				<key>keyword</key>
 				<string>fo</string>
+				<key>limit</key>
+				<integer>0</integer>
 				<key>runningsubtext</key>
 				<string></string>
 				<key>scopes</key>
 				<array/>
+				<key>sortmode</key>
+				<integer>0</integer>
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
@@ -330,7 +347,7 @@ fi</string>
 			<key>uid</key>
 			<string>CAD232B5-6B26-4DB8-B878-BD157C8296F0</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -342,6 +359,30 @@ fi</string>
 			<string>alfred.workflow.trigger.external</string>
 			<key>uid</key>
 			<string>C34E01D2-E55A-4908-8A98-3DE22A77AA48</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>json</key>
+				<string>{
+  "alfredworkflow" : {
+    "arg" : "{query}",
+    "config" : {
+      "title" : "",
+      "runningsubtext" : "",
+      "subtext" : ""
+    },
+    "variables" : {
+    }
+  }
+}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.json</string>
+			<key>uid</key>
+			<string>BEDF7EC9-9327-4967-876A-A6F5F4303055</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -436,14 +477,14 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>note</key>
 			<string>Edit readme of folder</string>
 			<key>xpos</key>
-			<integer>490</integer>
+			<integer>565</integer>
 			<key>ypos</key>
 			<integer>530</integer>
 		</dict>
 		<key>27618EAD-E675-43BC-841E-6986EAE4597D</key>
 		<dict>
 			<key>xpos</key>
-			<integer>490</integer>
+			<integer>565</integer>
 			<key>ypos</key>
 			<integer>810</integer>
 		</dict>
@@ -454,14 +495,14 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>note</key>
 			<string>OneUpdater</string>
 			<key>xpos</key>
-			<integer>690</integer>
+			<integer>765</integer>
 			<key>ypos</key>
 			<integer>130</integer>
 		</dict>
 		<key>6A4E18A0-FDC8-4BA3-93B0-32B605CC24A9</key>
 		<dict>
 			<key>xpos</key>
-			<integer>490</integer>
+			<integer>565</integer>
 			<key>ypos</key>
 			<integer>10</integer>
 		</dict>
@@ -470,9 +511,16 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>note</key>
 			<string>Trash folder</string>
 			<key>xpos</key>
-			<integer>490</integer>
+			<integer>565</integer>
 			<key>ypos</key>
 			<integer>670</integer>
+		</dict>
+		<key>BEDF7EC9-9327-4967-876A-A6F5F4303055</key>
+		<dict>
+			<key>xpos</key>
+			<integer>165</integer>
+			<key>ypos</key>
+			<integer>330</integer>
 		</dict>
 		<key>C34E01D2-E55A-4908-8A98-3DE22A77AA48</key>
 		<dict>
@@ -486,21 +534,21 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>note</key>
 			<string>Search folders</string>
 			<key>xpos</key>
-			<integer>170</integer>
+			<integer>245</integer>
 			<key>ypos</key>
 			<integer>300</integer>
 		</dict>
 		<key>D066FC2C-E05A-468E-816D-5496289AE4AD</key>
 		<dict>
 			<key>xpos</key>
-			<integer>490</integer>
+			<integer>565</integer>
 			<key>ypos</key>
 			<integer>410</integer>
 		</dict>
 		<key>E5B51884-A97D-4E15-9321-11A17837DA38</key>
 		<dict>
 			<key>xpos</key>
-			<integer>490</integer>
+			<integer>565</integer>
 			<key>ypos</key>
 			<integer>290</integer>
 		</dict>
@@ -509,7 +557,7 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>note</key>
 			<string>cd to folder in current iTerm tab</string>
 			<key>xpos</key>
-			<integer>490</integer>
+			<integer>565</integer>
 			<key>ypos</key>
 			<integer>130</integer>
 		</dict>

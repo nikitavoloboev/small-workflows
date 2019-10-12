@@ -12,7 +12,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>E42349F4-A0EB-422F-92D1-6498A4F4EC68</string>
+				<string>7CC94387-4056-4628-92BF-FF6B4FDB1096</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -75,11 +75,37 @@
 				<false/>
 			</dict>
 		</array>
+		<key>7CC94387-4056-4628-92BF-FF6B4FDB1096</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>E42349F4-A0EB-422F-92D1-6498A4F4EC68</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>8B6695F5-6933-4F84-BC7E-B7867E182DE4</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>6D57C744-41AD-44F3-B941-863B242D62B6</string>
+				<string>DCE9D173-76E1-4B2E-8C73-24CD3EE7C16B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>A1F9ECAC-5971-4C86-973F-EEB581F3A638</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>25B10AEB-A152-4465-A992-53818C416EAD</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -93,6 +119,19 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>E42349F4-A0EB-422F-92D1-6498A4F4EC68</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>DCE9D173-76E1-4B2E-8C73-24CD3EE7C16B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>6D57C744-41AD-44F3-B941-863B242D62B6</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -131,7 +170,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>25B10AEB-A152-4465-A992-53818C416EAD</string>
+				<string>A1F9ECAC-5971-4C86-973F-EEB581F3A638</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -221,12 +260,16 @@
 				<false/>
 				<key>keyword</key>
 				<string>mindcont</string>
+				<key>limit</key>
+				<integer>0</integer>
 				<key>runningsubtext</key>
 				<string></string>
 				<key>scopes</key>
 				<array>
 					<string>~/Library/Mobile Documents/W6L39UYL6Z~com~mindnode~MindNode/Documents</string>
 				</array>
+				<key>sortmode</key>
+				<integer>0</integer>
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
@@ -242,6 +285,30 @@
 			<string>alfred.workflow.input.filefilter</string>
 			<key>uid</key>
 			<string>E42349F4-A0EB-422F-92D1-6498A4F4EC68</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>json</key>
+				<string>{
+  "alfredworkflow" : {
+    "arg" : "{query}",
+    "config" : {
+      "title" : "",
+      "runningsubtext" : "",
+      "subtext" : ""
+    },
+    "variables" : {
+    }
+  }
+}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.json</string>
+			<key>uid</key>
+			<string>7CC94387-4056-4628-92BF-FF6B4FDB1096</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -431,10 +498,14 @@ fi</string>
 				<false/>
 				<key>keyword</key>
 				<string>pdfcont</string>
+				<key>limit</key>
+				<integer>0</integer>
 				<key>runningsubtext</key>
 				<string></string>
 				<key>scopes</key>
 				<array/>
+				<key>sortmode</key>
+				<integer>0</integer>
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
@@ -450,6 +521,30 @@ fi</string>
 			<string>alfred.workflow.input.filefilter</string>
 			<key>uid</key>
 			<string>6D57C744-41AD-44F3-B941-863B242D62B6</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>json</key>
+				<string>{
+  "alfredworkflow" : {
+    "arg" : "{query}",
+    "config" : {
+      "title" : "",
+      "runningsubtext" : "",
+      "subtext" : ""
+    },
+    "variables" : {
+    }
+  }
+}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.json</string>
+			<key>uid</key>
+			<string>DCE9D173-76E1-4B2E-8C73-24CD3EE7C16B</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -510,12 +605,16 @@ fi</string>
 				<false/>
 				<key>keyword</key>
 				<string>sc</string>
+				<key>limit</key>
+				<integer>0</integer>
 				<key>runningsubtext</key>
 				<string></string>
 				<key>scopes</key>
 				<array>
 					<string>~/Library/Application Support/AddressBook</string>
 				</array>
+				<key>sortmode</key>
+				<integer>0</integer>
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
@@ -532,7 +631,7 @@ fi</string>
 			<key>uid</key>
 			<string>25B10AEB-A152-4465-A992-53818C416EAD</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -544,6 +643,30 @@ fi</string>
 			<string>alfred.workflow.trigger.external</string>
 			<key>uid</key>
 			<string>FBB29EE6-5791-4967-BB72-34726D0FCB06</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>json</key>
+				<string>{
+  "alfredworkflow" : {
+    "arg" : "{query}",
+    "config" : {
+      "title" : "",
+      "runningsubtext" : "",
+      "subtext" : ""
+    },
+    "variables" : {
+    }
+  }
+}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.json</string>
+			<key>uid</key>
+			<string>A1F9ECAC-5971-4C86-973F-EEB581F3A638</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -566,14 +689,14 @@ Post any issues and feature requests you have there. 💜</string>
 		<key>25B10AEB-A152-4465-A992-53818C416EAD</key>
 		<dict>
 			<key>xpos</key>
-			<integer>210</integer>
+			<integer>235</integer>
 			<key>ypos</key>
 			<integer>420</integer>
 		</dict>
 		<key>38C54E0A-65C7-41CD-A00E-13142D4A39BB</key>
 		<dict>
 			<key>xpos</key>
-			<integer>410</integer>
+			<integer>435</integer>
 			<key>ypos</key>
 			<integer>420</integer>
 		</dict>
@@ -587,16 +710,23 @@ Post any issues and feature requests you have there. 💜</string>
 		<key>4D8659B6-F1C4-4A07-9A46-F6AC1F193A18</key>
 		<dict>
 			<key>xpos</key>
-			<integer>410</integer>
+			<integer>435</integer>
 			<key>ypos</key>
 			<integer>290</integer>
 		</dict>
 		<key>6D57C744-41AD-44F3-B941-863B242D62B6</key>
 		<dict>
 			<key>xpos</key>
-			<integer>210</integer>
+			<integer>235</integer>
 			<key>ypos</key>
 			<integer>290</integer>
+		</dict>
+		<key>7CC94387-4056-4628-92BF-FF6B4FDB1096</key>
+		<dict>
+			<key>xpos</key>
+			<integer>165</integer>
+			<key>ypos</key>
+			<integer>40</integer>
 		</dict>
 		<key>8B6695F5-6933-4F84-BC7E-B7867E182DE4</key>
 		<dict>
@@ -605,6 +735,13 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>ypos</key>
 			<integer>290</integer>
 		</dict>
+		<key>A1F9ECAC-5971-4C86-973F-EEB581F3A638</key>
+		<dict>
+			<key>xpos</key>
+			<integer>155</integer>
+			<key>ypos</key>
+			<integer>450</integer>
+		</dict>
 		<key>D6559F47-39E4-43A5-A499-1CEFA1EF7EE1</key>
 		<dict>
 			<key>xpos</key>
@@ -612,17 +749,24 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>ypos</key>
 			<integer>140</integer>
 		</dict>
+		<key>DCE9D173-76E1-4B2E-8C73-24CD3EE7C16B</key>
+		<dict>
+			<key>xpos</key>
+			<integer>160</integer>
+			<key>ypos</key>
+			<integer>320</integer>
+		</dict>
 		<key>E42349F4-A0EB-422F-92D1-6498A4F4EC68</key>
 		<dict>
 			<key>xpos</key>
-			<integer>210</integer>
+			<integer>255</integer>
 			<key>ypos</key>
 			<integer>30</integer>
 		</dict>
 		<key>EC970D1C-4499-418D-A85E-D57AC07E459E</key>
 		<dict>
 			<key>xpos</key>
-			<integer>390</integer>
+			<integer>435</integer>
 			<key>ypos</key>
 			<integer>30</integer>
 		</dict>

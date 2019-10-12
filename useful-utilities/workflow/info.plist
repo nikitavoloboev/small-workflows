@@ -21,6 +21,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>D7F39F5F-B33A-461E-8BCF-D0F5175035BE</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D06FAE0A-3F34-4B96-9F3B-7B20D11112C3</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 	</dict>
 	<key>createdby</key>
 	<string>Nikita Voloboev</string>
@@ -52,37 +65,6 @@
 			<string>432BC856-0A4D-4BAB-B9D6-9C8C386C75D6</string>
 			<key>version</key>
 			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>action</key>
-				<integer>1</integer>
-				<key>argument</key>
-				<integer>1</integer>
-				<key>focusedappvariable</key>
-				<false/>
-				<key>focusedappvariablename</key>
-				<string></string>
-				<key>hotkey</key>
-				<integer>13</integer>
-				<key>hotmod</key>
-				<integer>1310720</integer>
-				<key>hotstring</key>
-				<string>W</string>
-				<key>leftcursor</key>
-				<true/>
-				<key>modsmode</key>
-				<integer>0</integer>
-				<key>relatedAppsMode</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.hotkey</string>
-			<key>uid</key>
-			<string>6402E710-5A01-4E8C-9EC5-6E26CFB6ECE9</string>
-			<key>version</key>
-			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -175,6 +157,65 @@ fi</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>1</integer>
+				<key>argument</key>
+				<integer>1</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>13</integer>
+				<key>hotmod</key>
+				<integer>1310720</integer>
+				<key>hotstring</key>
+				<string>W</string>
+				<key>leftcursor</key>
+				<true/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>6402E710-5A01-4E8C-9EC5-6E26CFB6ECE9</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>triggerid</key>
+				<string>search alfred</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>D7F39F5F-B33A-461E-8BCF-D0F5175035BE</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{query}</string>
+				<key>leftcursor</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.showalfred</string>
+			<key>uid</key>
+			<string>D06FAE0A-3F34-4B96-9F3B-7B20D11112C3</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string>Details on how to use this workflow are found in the GitHub repo attached to the workflow. 
@@ -199,6 +240,20 @@ Post any issues and feature requests you have there. 💜</string>
 			<integer>30</integer>
 			<key>ypos</key>
 			<integer>30</integer>
+		</dict>
+		<key>D06FAE0A-3F34-4B96-9F3B-7B20D11112C3</key>
+		<dict>
+			<key>xpos</key>
+			<integer>225</integer>
+			<key>ypos</key>
+			<integer>260</integer>
+		</dict>
+		<key>D7F39F5F-B33A-461E-8BCF-D0F5175035BE</key>
+		<dict>
+			<key>xpos</key>
+			<integer>60</integer>
+			<key>ypos</key>
+			<integer>230</integer>
 		</dict>
 		<key>D9E9BC85-823E-4974-B595-8E95CC1A8F6D</key>
 		<dict>

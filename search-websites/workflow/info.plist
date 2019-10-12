@@ -565,7 +565,7 @@
 				<key>destinationuid</key>
 				<string>7B8F682D-595D-4329-99CE-669D3BAB8F18</string>
 				<key>modifiers</key>
-				<integer>524288</integer>
+				<integer>1048576</integer>
 				<key>modifiersubtext</key>
 				<string></string>
 				<key>vitoclose</key>
@@ -595,7 +595,7 @@
 				<key>destinationuid</key>
 				<string>0A552701-634E-48C6-8E5C-546157CC5EC2</string>
 				<key>modifiers</key>
-				<integer>1048576</integer>
+				<integer>524288</integer>
 				<key>modifiersubtext</key>
 				<string></string>
 				<key>vitoclose</key>
@@ -1431,9 +1431,9 @@ fi</string>
 				<key>keyword</key>
 				<string>hackernews</string>
 				<key>subtext</key>
-				<string>⌥ = Past month | FN = Past year</string>
+				<string>⌥ = Past 24 hours | FN = Past year</string>
 				<key>text</key>
-				<string>All time | ⌘ = 24 Hours | ⌃ = Past week</string>
+				<string>All time | ⌘ = Past month | ⌃ = Past week</string>
 				<key>withspace</key>
 				<true/>
 			</dict>

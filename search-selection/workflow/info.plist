@@ -34,6 +34,32 @@
 				<false/>
 			</dict>
 		</array>
+		<key>1284A8AB-80A6-45DE-9F8B-668F5A73A118</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>F77CF87C-73D1-4D74-A2DF-6B9117B99942</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>13F63539-A443-4956-A586-BF73D03C0651</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>04D2A9A2-9BB5-44E6-A869-9E6C01D618CA</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>1420A89D-8F71-4CDB-B488-B77681D46562</key>
 		<array/>
 		<key>17C9B5D0-0677-4B3B-89F2-3A94044EA4D0</key>
@@ -140,11 +166,50 @@
 				<false/>
 			</dict>
 		</array>
+		<key>6C823981-F271-4409-BC4F-E2C84826C033</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>E39948B4-6C02-4B56-A138-18C3D588D0BC</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>7602C016-B529-4A2B-9182-BA0739F258D9</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
 				<string>F56DD505-EE21-4AD1-BD70-124B2AEA79CA</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>77995F6A-C3B0-4855-95B2-D259153EDDF4</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>8244D702-EA98-4607-92B5-4B06450DA8B0</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>8244D702-EA98-4607-92B5-4B06450DA8B0</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>E39948B4-6C02-4B56-A138-18C3D588D0BC</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -327,6 +392,32 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>B0DE97B9-993B-4BA7-BC87-FEFA38B83366</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>F77CF87C-73D1-4D74-A2DF-6B9117B99942</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>284046C7-6E78-4ED0-982B-BE7F1F39D9A3</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>F83F7611-ADCD-4EAD-9AEE-4C4C2DAE349A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>13F63539-A443-4956-A586-BF73D03C0651</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -727,11 +818,11 @@ fi</string>
 				<key>focusedappvariablename</key>
 				<string></string>
 				<key>hotkey</key>
-				<integer>80</integer>
+				<integer>16</integer>
 				<key>hotmod</key>
-				<integer>8388608</integer>
+				<integer>1703936</integer>
 				<key>hotstring</key>
-				<string>F19</string>
+				<string>Y</string>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -780,6 +871,24 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>applescript</key>
+				<string>on alfred_script(q)
+  -- your script here
+	tell app "safari" to url of document 1
+end alfred_script</string>
+				<key>cachescript</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.applescript</string>
+			<key>uid</key>
+			<string>F77CF87C-73D1-4D74-A2DF-6B9117B99942</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>browser</key>
 				<string></string>
 				<key>spaces</key>
@@ -795,6 +904,37 @@ fi</string>
 			<string>284046C7-6E78-4ED0-982B-BE7F1F39D9A3</string>
 			<key>version</key>
 			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>35</integer>
+				<key>hotmod</key>
+				<integer>1703936</integer>
+				<key>hotstring</key>
+				<string>P</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>1284A8AB-80A6-45DE-9F8B-668F5A73A118</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -839,6 +979,55 @@ fi</string>
 			<string>alfred.workflow.action.systemwebsearch</string>
 			<key>uid</key>
 			<string>569F1BBD-F878-4A7A-92CF-27FF5C854EEF</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>31</integer>
+				<key>hotmod</key>
+				<integer>1703936</integer>
+				<key>hotstring</key>
+				<string>O</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>F83F7611-ADCD-4EAD-9AEE-4C4C2DAE349A</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>applescript</key>
+				<string>on alfred_script(q)
+  -- your script here
+	tell app "safari" to url of document 1
+end alfred_script</string>
+				<key>cachescript</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.applescript</string>
+			<key>uid</key>
+			<string>13F63539-A443-4956-A586-BF73D03C0651</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1284,6 +1473,105 @@ fi</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>1</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>9</integer>
+				<key>hotmod</key>
+				<integer>1835008</integer>
+				<key>hotstring</key>
+				<string>V</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>6C823981-F271-4409-BC4F-E2C84826C033</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string>+</string>
+				<key>url</key>
+				<string>https://hn.algolia.com/?query={query}&amp;sort=byPopularity&amp;prefix&amp;page=0&amp;dateRange=all&amp;type=story</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>E39948B4-6C02-4B56-A138-18C3D588D0BC</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>34</integer>
+				<key>hotmod</key>
+				<integer>1703936</integer>
+				<key>hotstring</key>
+				<string>I</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>77995F6A-C3B0-4855-95B2-D259153EDDF4</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>applescript</key>
+				<string>on alfred_script(q)
+  -- your script here
+	tell app "safari" to url of document 1
+end alfred_script</string>
+				<key>cachescript</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.applescript</string>
+			<key>uid</key>
+			<string>8244D702-EA98-4607-92B5-4B06450DA8B0</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string>Details on how to use this workflow are found in the GitHub repo attached to the workflow. 
@@ -1306,6 +1594,22 @@ Post any issues and feature requests you have there. 💜</string>
 			<integer>10</integer>
 			<key>ypos</key>
 			<integer>2020</integer>
+		</dict>
+		<key>1284A8AB-80A6-45DE-9F8B-668F5A73A118</key>
+		<dict>
+			<key>xpos</key>
+			<integer>335</integer>
+			<key>ypos</key>
+			<integer>790</integer>
+		</dict>
+		<key>13F63539-A443-4956-A586-BF73D03C0651</key>
+		<dict>
+			<key>note</key>
+			<string>get current Safari URL</string>
+			<key>xpos</key>
+			<integer>495</integer>
+			<key>ypos</key>
+			<integer>1055</integer>
 		</dict>
 		<key>1420A89D-8F71-4CDB-B488-B77681D46562</key>
 		<dict>
@@ -1388,6 +1692,13 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>ypos</key>
 			<integer>130</integer>
 		</dict>
+		<key>6C823981-F271-4409-BC4F-E2C84826C033</key>
+		<dict>
+			<key>xpos</key>
+			<integer>10</integer>
+			<key>ypos</key>
+			<integer>2310</integer>
+		</dict>
 		<key>752A3C20-74E2-4430-B29A-A5385A747DD3</key>
 		<dict>
 			<key>note</key>
@@ -1403,6 +1714,22 @@ Post any issues and feature requests you have there. 💜</string>
 			<integer>10</integer>
 			<key>ypos</key>
 			<integer>1320</integer>
+		</dict>
+		<key>77995F6A-C3B0-4855-95B2-D259153EDDF4</key>
+		<dict>
+			<key>xpos</key>
+			<integer>330</integer>
+			<key>ypos</key>
+			<integer>2315</integer>
+		</dict>
+		<key>8244D702-EA98-4607-92B5-4B06450DA8B0</key>
+		<dict>
+			<key>note</key>
+			<string>get current Safari URL</string>
+			<key>xpos</key>
+			<integer>485</integer>
+			<key>ypos</key>
+			<integer>2315</integer>
 		</dict>
 		<key>8D6FD61A-1E20-43B2-B2C6-8216D00D40C4</key>
 		<dict>
@@ -1518,6 +1845,15 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>ypos</key>
 			<integer>370</integer>
 		</dict>
+		<key>E39948B4-6C02-4B56-A138-18C3D588D0BC</key>
+		<dict>
+			<key>note</key>
+			<string>Hacker News</string>
+			<key>xpos</key>
+			<integer>170</integer>
+			<key>ypos</key>
+			<integer>2310</integer>
+		</dict>
 		<key>E536809C-0876-4720-BCC4-88C55F4E8B65</key>
 		<dict>
 			<key>xpos</key>
@@ -1563,6 +1899,22 @@ Post any issues and feature requests you have there. 💜</string>
 			<integer>170</integer>
 			<key>ypos</key>
 			<integer>1320</integer>
+		</dict>
+		<key>F77CF87C-73D1-4D74-A2DF-6B9117B99942</key>
+		<dict>
+			<key>note</key>
+			<string>get current Safari URL</string>
+			<key>xpos</key>
+			<integer>490</integer>
+			<key>ypos</key>
+			<integer>790</integer>
+		</dict>
+		<key>F83F7611-ADCD-4EAD-9AEE-4C4C2DAE349A</key>
+		<dict>
+			<key>xpos</key>
+			<integer>340</integer>
+			<key>ypos</key>
+			<integer>1055</integer>
 		</dict>
 		<key>FE9A898B-B321-47BC-A2A9-6867E59F3116</key>
 		<dict>

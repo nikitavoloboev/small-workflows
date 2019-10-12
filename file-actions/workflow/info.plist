@@ -23,19 +23,6 @@
 		</array>
 		<key>0B745ABB-0AA9-4E4A-8927-5992D8AFC0CF</key>
 		<array/>
-		<key>15DA7D17-04E3-4987-ADF8-5D904173CEDD</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>6949EE20-E98F-41A8-8D0F-3B7EAE80D7CB</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>165DF2AE-027E-46DE-95F1-6444540EC24D</key>
 		<array>
 			<dict>
@@ -201,19 +188,6 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>D43C3893-C964-40AC-8885-C4C1866124CC</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>973E95B3-0ADF-442D-8CBE-EB91FA2ED3A7</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>15DA7D17-04E3-4987-ADF8-5D904173CEDD</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -558,7 +532,7 @@
 				<key>filetypes</key>
 				<array/>
 				<key>name</key>
-				<string>cd to iTerm</string>
+				<string>cd in iTerm</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.trigger.action</string>
@@ -693,21 +667,6 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>openwith</key>
-				<string>/Applications/iTerm.app</string>
-				<key>sourcefile</key>
-				<string></string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openfile</string>
-			<key>uid</key>
-			<string>D43C3893-C964-40AC-8885-C4C1866124CC</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>acceptsmulti</key>
 				<true/>
 				<key>filetypes</key>
@@ -721,6 +680,21 @@ fi</string>
 			<string>95CE1AA4-AFB9-486F-BA43-359EE4BCFE98</string>
 			<key>version</key>
 			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>openwith</key>
+				<string>/Applications/iTerm.app</string>
+				<key>sourcefile</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>D43C3893-C964-40AC-8885-C4C1866124CC</string>
+			<key>version</key>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1040,46 +1014,6 @@ done</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>0</integer>
-				<key>script</key>
-				<string>echo -n $(basename "{query}");</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>15DA7D17-04E3-4987-ADF8-5D904173CEDD</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>acceptsmulti</key>
-				<false/>
-				<key>filetypes</key>
-				<array/>
-				<key>name</key>
-				<string>Get File Name</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.action</string>
-			<key>uid</key>
-			<string>973E95B3-0ADF-442D-8CBE-EB91FA2ED3A7</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>autopaste</key>
 				<false/>
 				<key>clipboardtext</key>
@@ -1092,7 +1026,7 @@ done</string>
 			<key>uid</key>
 			<string>6949EE20-E98F-41A8-8D0F-3B7EAE80D7CB</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1126,7 +1060,7 @@ echo -n $size;</string>
 				<key>filetypes</key>
 				<array/>
 				<key>name</key>
-				<string>Get File Size</string>
+				<string>Copy file size</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.trigger.action</string>
@@ -1326,7 +1260,7 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>xpos</key>
 			<integer>40</integer>
 			<key>ypos</key>
-			<integer>2300</integer>
+			<integer>2205</integer>
 		</dict>
 		<key>0B745ABB-0AA9-4E4A-8927-5992D8AFC0CF</key>
 		<dict>
@@ -1336,13 +1270,6 @@ Post any issues and feature requests you have there. 💜</string>
 			<integer>440</integer>
 			<key>ypos</key>
 			<integer>1410</integer>
-		</dict>
-		<key>15DA7D17-04E3-4987-ADF8-5D904173CEDD</key>
-		<dict>
-			<key>xpos</key>
-			<integer>210</integer>
-			<key>ypos</key>
-			<integer>1570</integer>
 		</dict>
 		<key>165DF2AE-027E-46DE-95F1-6444540EC24D</key>
 		<dict>
@@ -1397,7 +1324,7 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>xpos</key>
 			<integer>210</integer>
 			<key>ypos</key>
-			<integer>2300</integer>
+			<integer>2205</integer>
 		</dict>
 		<key>4734A1CE-71AC-4EF4-B023-1650DD4E44A6</key>
 		<dict>
@@ -1432,7 +1359,7 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>xpos</key>
 			<integer>270</integer>
 			<key>ypos</key>
-			<integer>1710</integer>
+			<integer>1615</integer>
 		</dict>
 		<key>57AB6F96-9189-4E21-8E77-3D27FA388664</key>
 		<dict>
@@ -1446,14 +1373,14 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>xpos</key>
 			<integer>40</integer>
 			<key>ypos</key>
-			<integer>2010</integer>
+			<integer>1915</integer>
 		</dict>
 		<key>6949EE20-E98F-41A8-8D0F-3B7EAE80D7CB</key>
 		<dict>
 			<key>xpos</key>
 			<integer>470</integer>
 			<key>ypos</key>
-			<integer>1710</integer>
+			<integer>1615</integer>
 		</dict>
 		<key>80A02279-4EB1-4B30-BA7F-D41C31EE28BD</key>
 		<dict>
@@ -1467,7 +1394,7 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>xpos</key>
 			<integer>210</integer>
 			<key>ypos</key>
-			<integer>2010</integer>
+			<integer>1915</integer>
 		</dict>
 		<key>95CE1AA4-AFB9-486F-BA43-359EE4BCFE98</key>
 		<dict>
@@ -1476,19 +1403,12 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>ypos</key>
 			<integer>560</integer>
 		</dict>
-		<key>973E95B3-0ADF-442D-8CBE-EB91FA2ED3A7</key>
-		<dict>
-			<key>xpos</key>
-			<integer>30</integer>
-			<key>ypos</key>
-			<integer>1570</integer>
-		</dict>
 		<key>976862D7-9AD5-4F3F-8687-4FFEB11ADE2E</key>
 		<dict>
 			<key>xpos</key>
 			<integer>210</integer>
 			<key>ypos</key>
-			<integer>2150</integer>
+			<integer>2055</integer>
 		</dict>
 		<key>9798DA32-2509-4F25-A509-EB1B490F1B9B</key>
 		<dict>
@@ -1595,28 +1515,28 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>xpos</key>
 			<integer>220</integer>
 			<key>ypos</key>
-			<integer>1870</integer>
+			<integer>1775</integer>
 		</dict>
 		<key>E074972D-2A62-407B-9472-B5C9CECEAE05</key>
 		<dict>
 			<key>xpos</key>
 			<integer>40</integer>
 			<key>ypos</key>
-			<integer>2150</integer>
+			<integer>2055</integer>
 		</dict>
 		<key>EC932FFD-E3FD-462E-BB1C-8848A0D80471</key>
 		<dict>
 			<key>xpos</key>
 			<integer>30</integer>
 			<key>ypos</key>
-			<integer>1710</integer>
+			<integer>1615</integer>
 		</dict>
 		<key>FFBA68A2-E374-4725-9573-7B9A290E14D1</key>
 		<dict>
 			<key>xpos</key>
 			<integer>40</integer>
 			<key>ypos</key>
-			<integer>1870</integer>
+			<integer>1775</integer>
 		</dict>
 	</dict>
 	<key>version</key>

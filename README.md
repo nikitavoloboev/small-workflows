@@ -1,4 +1,4 @@
-# Small Workflows [![Workflows](https://img.shields.io/badge/-more%20workflows-0a0a0a.svg?style=flat&colorA=0a0a0a)](https://github.com/learn-anything/alfred-workflows#readme) [![Thanks](http://bit.ly/saythankss)](https://github.com/users/nikitavoloboev/sponsorship)
+# Small Workflows [![Workflows](https://img.shields.io/badge/-more%20workflows-0a0a0a.svg?style=flat&colorA=0a0a0a)](https://github.com/learn-anything/alfred-workflows#readme) [![Thanks](http://bit.ly/saythankss)](https://github.com/sponsors/nikitavoloboev)
 
 > Small [Alfred](https://www.alfredapp.com/) workflows I use that don't warrant a GitHub repository of their own
 
@@ -64,6 +64,6 @@ See [contribution guidelines](CONTRIBUTING.md#readme).
 
 ## Thank you
 
-You can support me on [GitHub](https://github.com/users/nikitavoloboev/sponsorship) or look into [other projects](https://nikitavoloboev.xyz/projects) I shared.
+You can support me on [GitHub](https://github.com/sponsors/nikitavoloboev) or look into [other projects](https://nikitavoloboev.xyz/projects) I shared.
 
 [![MIT](http://bit.ly/mitbadge)](LICENSE) [![Twitter](http://bit.ly/nikitweet)](https://twitter.com/nikitavoloboev)

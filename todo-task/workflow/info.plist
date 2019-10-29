@@ -87,7 +87,7 @@
 			<key>config</key>
 			<dict>
 				<key>triggerid</key>
-				<string>new task</string>
+				<string>new todo</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.trigger.external</string>

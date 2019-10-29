@@ -2,7 +2,7 @@
 
 > Small [Alfred](https://www.alfredapp.com/) workflows I use that don't warrant a GitHub repository of their own
 
-##### Contents
+#### Contents
 
 - [My Workflows](#my-workflows)
 - [Workflow Augmentations](#workflow-augmentations)

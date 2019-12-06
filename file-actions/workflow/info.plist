@@ -144,19 +144,6 @@
 				<false/>
 			</dict>
 		</array>
-		<key>57AB6F96-9189-4E21-8E77-3D27FA388664</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>9798DA32-2509-4F25-A509-EB1B490F1B9B</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>5D838964-73AF-474B-BD3D-F69814EDB761</key>
 		<array>
 			<dict>
@@ -188,19 +175,6 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>D43C3893-C964-40AC-8885-C4C1866124CC</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>9798DA32-2509-4F25-A509-EB1B490F1B9B</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>237B73E3-34B1-4219-A931-904504531BA1</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -483,46 +457,6 @@
 			<string>A589A108-2655-409C-8908-9ABF7E7EFABE</string>
 			<key>version</key>
 			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>mv "{query}" /Applications</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>9798DA32-2509-4F25-A509-EB1B490F1B9B</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>acceptsmulti</key>
-				<true/>
-				<key>filetypes</key>
-				<array/>
-				<key>name</key>
-				<string>Move to applications</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.action</string>
-			<key>uid</key>
-			<string>57AB6F96-9189-4E21-8E77-3D27FA388664</string>
-			<key>version</key>
-			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1361,13 +1295,6 @@ Post any issues and feature requests you have there. 💜</string>
 			<key>ypos</key>
 			<integer>1615</integer>
 		</dict>
-		<key>57AB6F96-9189-4E21-8E77-3D27FA388664</key>
-		<dict>
-			<key>xpos</key>
-			<integer>10</integer>
-			<key>ypos</key>
-			<integer>270</integer>
-		</dict>
 		<key>5D838964-73AF-474B-BD3D-F69814EDB761</key>
 		<dict>
 			<key>xpos</key>
@@ -1409,13 +1336,6 @@ Post any issues and feature requests you have there. 💜</string>
 			<integer>210</integer>
 			<key>ypos</key>
 			<integer>2055</integer>
-		</dict>
-		<key>9798DA32-2509-4F25-A509-EB1B490F1B9B</key>
-		<dict>
-			<key>xpos</key>
-			<integer>200</integer>
-			<key>ypos</key>
-			<integer>270</integer>
 		</dict>
 		<key>9CC3405C-70D3-4138-A870-B8C2CACCBE8E</key>
 		<dict>

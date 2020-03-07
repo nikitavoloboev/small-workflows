@@ -55,7 +55,7 @@ Below is a list of workflows that were made for my own personal use and will mos
 
 You can take some inspiration or ideas from these workflows if you wish.
 
-- [Manage wiki](https://github.com/nikitavoloboev/small-workflows/blob/master/personal/Manage%20wiki.alfredworkflow?raw=true) - I use it to manage editing and extending my [knowledge wiki](https://github.com/nikitavoloboev/knowledge).
+- [Manage notes](https://github.com/nikitavoloboev/small-workflows/blob/master/personal/Manage%20notes.alfredworkflow?raw=true) - I use it to manage editing and extending my [wiki](https://github.com/nikitavoloboev/knowledge).
 
 ## Contributing
 

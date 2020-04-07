@@ -17,7 +17,32 @@ var (
 	query string
 )
 
-// TODO: Searching through items & filtering
+// Gets age correctly.
+func getAge(birthday time.Time) int {
+	currentYear := time.Now().Year()
+	currentMonth := time.Now().Month()
+	currentDay := time.Now().Day()
+
+	birthYear := birthday.Year()
+	birthMonth := birthday.Month()
+	birthDay := birthday.Day()
+
+	var age int
+	if currentMonth < birthMonth {
+		age = currentYear - birthYear - 1
+	} else if currentMonth > birthMonth {
+		age = currentYear - birthYear
+	} else {
+		if currentDay >= birthDay {
+			age = currentYear - birthYear
+		} else {
+			age = currentYear - birthYear - 1
+		}
+	}
+	return age
+}
+
+// TODO: cache value so not to rerun this every second, only append to seconds on reruns
 func getBirthday() error {
 	log.Printf("query=%s", query)
 

@@ -27,16 +27,6 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>81E69D82-0504-4F92-A607-C88110E69C64</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
 				<string>8A0C6DCE-7A5E-4E1E-B841-576643197943</string>
 				<key>modifiers</key>
 				<integer>0</integer>
@@ -120,7 +110,7 @@
 				<key>hotmod</key>
 				<integer>393216</integer>
 				<key>hotstring</key>
-				<string>:</string>
+				<string>;</string>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -150,7 +140,7 @@
 			<key>uid</key>
 			<string>8A0C6DCE-7A5E-4E1E-B841-576643197943</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -299,7 +289,7 @@ fi</string>
 			<key>uid</key>
 			<string>EDB86F6C-30F2-4E1A-8F2C-4BD241F5EFD1</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -406,6 +396,6 @@ Post any issues and feature requests you have there. 💜</string>
 	<key>version</key>
 	<string>1.1</string>
 	<key>webaddress</key>
-	<string>https://github.com/nikitavoloboev/small-workflows/blob/master/go-play#readme</string>
+	<string>https://github.com/nikitavoloboev/small-workflows/blob/master/go-play</string>
 </dict>
 </plist>

@@ -225,7 +225,7 @@
 			<key>uid</key>
 			<string>5560476A-AECF-451B-A0AF-AC5599BE0E29</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -383,7 +383,7 @@ fi</string>
 			<key>uid</key>
 			<string>1638A3EC-E376-46A0-87F9-62D96B9B67C9</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -400,7 +400,7 @@ fi</string>
 			<key>uid</key>
 			<string>598A7C16-509C-4DC8-8BD7-620699E218A3</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -435,6 +435,8 @@ fi</string>
 				<false/>
 				<key>alfredfiltersresultsmatchmode</key>
 				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
@@ -485,7 +487,7 @@ echo "&lt;/items&gt;"</string>
 			<key>uid</key>
 			<string>96400A8C-F3C5-4855-9A82-A2746062C23D</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -531,71 +533,7 @@ cd ~/Dropbox
 			<key>uid</key>
 			<string>851614DC-D34D-4330-BEBA-32DA10941556</string>
 			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>matchmode</key>
-				<integer>0</integer>
-				<key>matchstring</key>
-				<string>dl=0</string>
-				<key>replacestring</key>
-				<string>dl=1</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.replace</string>
-			<key>uid</key>
-			<string>DAB5F3BF-8B24-4A51-970D-27E527EB05A8</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>matchmode</key>
-				<integer>0</integer>
-				<key>matchstring</key>
-				<string>&gt; Share link:</string>
-				<key>replacestring</key>
-				<string></string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.replace</string>
-			<key>uid</key>
-			<string>FE935C16-B805-4313-A5BC-DAF024090BAC</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>matchmode</key>
-				<integer>0</integer>
-				<key>matchstring</key>
-				<string>/Users/nikivi/Dropbox/</string>
-				<key>replacestring</key>
-				<string></string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.replace</string>
-			<key>uid</key>
-			<string>496C289A-4374-4E26-A15C-C0D0DE8668BD</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.transform</string>
-			<key>uid</key>
-			<string>94E11145-B41D-4498-9E27-0F76DD092F8E</string>
-			<key>version</key>
-			<integer>1</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -620,6 +558,70 @@ cd ~/Dropbox
 			<string>CF0C6BC4-15EF-4874-8509-3A5D4E7DCCBD</string>
 			<key>version</key>
 			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>&gt; Share link:</string>
+				<key>replacestring</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.replace</string>
+			<key>uid</key>
+			<string>FE935C16-B805-4313-A5BC-DAF024090BAC</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>/Users/nikivi/Dropbox/</string>
+				<key>replacestring</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.replace</string>
+			<key>uid</key>
+			<string>496C289A-4374-4E26-A15C-C0D0DE8668BD</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.transform</string>
+			<key>uid</key>
+			<string>94E11145-B41D-4498-9E27-0F76DD092F8E</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>dl=0</string>
+				<key>replacestring</key>
+				<string>dl=1</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.replace</string>
+			<key>uid</key>
+			<string>DAB5F3BF-8B24-4A51-970D-27E527EB05A8</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -820,6 +822,6 @@ Post any issues and feature requests you have there. 💜</string>
 	<key>version</key>
 	<string>1.4</string>
 	<key>webaddress</key>
-	<string>https://github.com/nikitavoloboev/small-workflows/blob/master/dropbox-upload#readme</string>
+	<string>https://github.com/nikitavoloboev/small-workflows/blob/master/dropbox-upload</string>
 </dict>
 </plist>

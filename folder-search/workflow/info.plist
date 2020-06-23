@@ -452,7 +452,7 @@ fi</string>
 			<key>config</key>
 			<dict>
 				<key>openwith</key>
-				<string>/Applications/Visual Studio Code.app</string>
+				<string>/Applications/Visual Studio Code - Insiders.app</string>
 				<key>sourcefile</key>
 				<string></string>
 			</dict>

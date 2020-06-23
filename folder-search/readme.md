@@ -12,4 +12,4 @@ One of the modifier actions there (⌥ + ⏎) will open the README file inside t
 
 ## Contributing
 
-See [contribution guidelines](../CONTRIBUTING.md#readme).
+See [contribution guidelines](../CONTRIBUTING.md).

@@ -12,7 +12,7 @@ You can then by calling the external trigger or with `todo` trigger write the ta
 
 ![](https://i.imgur.com/wxFuODw.png)
 
-In order to make sure I always keep my active TODO in mind, I display it on my TouchBar with [help of BetterTouchTool](https://github.com/nikitavoloboev/my-mac-os/tree/master/btt#readme).
+In order to make sure I always keep my active TODO in mind, I display it on my TouchBar with [help of BetterTouchTool](https://github.com/nikitavoloboev/my-mac-os/tree/master/btt).
 
 ![](https://i.imgur.com/l9ueqja.png)
 
@@ -22,4 +22,4 @@ This workflow lets me work on tasks one by one in GTD style. No multi tasking. T
 
 ## Contributing
 
-See [contribution guidelines](../CONTRIBUTING.md#readme).
+See [contribution guidelines](../CONTRIBUTING.md).

@@ -8,4 +8,4 @@ I also add many modifier key options to scope my searches better.
 
 ## Contributing
 
-See [contribution guidelines](../CONTRIBUTING.md#readme).
+See [contribution guidelines](../CONTRIBUTING.md).

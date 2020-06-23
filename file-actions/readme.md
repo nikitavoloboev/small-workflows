@@ -8,4 +8,4 @@ Many actions I copied from [Alfred Browser Toolbox](http://customct.com/alfred-2
 
 ## Contributing
 
-See [contribution guidelines](../CONTRIBUTING.md#readme).
+See [contribution guidelines](../CONTRIBUTING.md).

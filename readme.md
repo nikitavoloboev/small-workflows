@@ -4,25 +4,25 @@
 
 ## My Workflows
 
-- [Search websites](search-websites#readme) - Searches on popular websites. I use [Web Searches](https://github.com/nikitavoloboev/alfred-web-searches) and [Searchio](https://github.com/deanishe/alfred-searchio) for all other searches.
-- [Search Files](search-files#readme) - A lot of [file filters](https://www.alfredapp.com/help/workflows/inputs/file-filter/) to find files quickly
-- [Search Selection](search-selection#readme) - Search selected text on various websites with hotkeys.
-- [Search Content](search-content#readme) - Actions to search through the insides of PDF and MindNode documents as well as Contacts.
-- [WiFi Tools](wifi-tools#readme) - Check WiFi connection / Restart WiFi / Toggle it on/off.
-- [Go play](go-play#readme) - Create [Go Playground](https://play.golang.org) from selected Go code for sharing.
-- [Useful utilities](useful-utilities#readme) - Only has one utility, to search selected text in Alfred.
-- [Month numbers](month-numbers#readme) - Search for a month and copy the month number to your clipboard.
-- [Clean Folders](clean-folders#readme) - Trash items from Desktop and clean certain folders.
-- [Folder Search](folder-search#readme) - Search folders from Alfred and open them in Finder/iTerm/Editor.
-- [File Actions](file-actions#readme) - Various file actions I made to operate on files and folders.
-- [Go to Subreddit](goto-subreddit#readme) - Go to a subreddit that you specify. For searching subreddits, use [this](https://github.com/deanishe/alfred-reddit).
-- [Focus](focus#readme) - Start [Focus](https://heyfocus.com) blocking for some time that you specify.
-- [Local host](local-host#readme) - Open port that you specify at local host.
-- [Objects library](objects-library#readme) - Useful premade objects for workflows.
-- [Open with app](open-with-app#readme) - File actions to quickly open file/folder in the application without going to `Open with...` menu.
-- [TODO Task](todo-task#readme) - Write a task and display it on TouchBar, in middle of screen or menu bar.
-- [Birthday](birthday#readme) - See time passed since your birthday.
-- [Dropbox Upload](dropbox-upload#readme) - Upload and share files with Dropbox.
+- [Search websites](search-websites) - Searches on popular websites. I use [Web Searches](https://github.com/nikitavoloboev/alfred-web-searches) and [Searchio](https://github.com/deanishe/alfred-searchio) for all other searches.
+- [Search Files](search-files) - A lot of [file filters](https://www.alfredapp.com/help/workflows/inputs/file-filter/) to find files quickly
+- [Search Selection](search-selection) - Search selected text on various websites with hotkeys.
+- [Search Content](search-content) - Actions to search through the insides of PDF and MindNode documents as well as Contacts.
+- [WiFi Tools](wifi-tools) - Check WiFi connection / Restart WiFi / Toggle it on/off.
+- [Go play](go-play) - Create [Go Playground](https://play.golang.org) from selected Go code for sharing.
+- [Useful utilities](useful-utilities) - Only has one utility, to search selected text in Alfred.
+- [Month numbers](month-numbers) - Search for a month and copy the month number to your clipboard.
+- [Clean Folders](clean-folders) - Trash items from Desktop and clean certain folders.
+- [Folder Search](folder-search) - Search folders from Alfred and open them in Finder/iTerm/Editor.
+- [File Actions](file-actions) - Various file actions I made to operate on files and folders.
+- [Go to Subreddit](goto-subreddit) - Go to a subreddit that you specify. For searching subreddits, use [this](https://github.com/deanishe/alfred-reddit).
+- [Focus](focus) - Start [Focus](https://heyfocus.com) blocking for some time that you specify.
+- [Local host](local-host) - Open port that you specify at local host.
+- [Objects library](objects-library) - Useful premade objects for workflows.
+- [Open with app](open-with-app) - File actions to quickly open file/folder in the application without going to `Open with...` menu.
+- [TODO Task](todo-task) - Write a task and display it on TouchBar, in middle of screen or menu bar.
+- [Birthday](birthday) - See time passed since your birthday.
+- [Dropbox Upload](dropbox-upload) - Upload and share files with Dropbox.
 
 ## Workflow Augmentations
 

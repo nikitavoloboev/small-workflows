@@ -14,4 +14,4 @@ The second is a script filter that will filter through the contents of `~/Dropbo
 
 ## Contributing
 
-See [contribution guidelines](../CONTRIBUTING.md).
+See [contribution guidelines](../contributing.md).

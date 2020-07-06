@@ -14,4 +14,4 @@ Which you can open here:
 
 ## Contributing
 
-See [contribution guidelines](../CONTRIBUTING.md).
+See [contribution guidelines](../contributing.md).

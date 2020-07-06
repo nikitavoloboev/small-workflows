@@ -10,4 +10,4 @@ I also heavily use [Web Searches workflow](https://github.com/nikitavoloboev/alf
 
 ## Contributing
 
-See [contribution guidelines](../CONTRIBUTING.md).
+See [contribution guidelines](../contributing.md).

@@ -22,4 +22,4 @@ This workflow lets me work on tasks one by one in GTD style. No multi tasking. T
 
 ## Contributing
 
-See [contribution guidelines](../CONTRIBUTING.md).
+See [contribution guidelines](../contributing.md).

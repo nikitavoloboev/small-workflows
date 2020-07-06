@@ -8,4 +8,4 @@ Can also share to [Go Play Space](https://goplay.space/).
 
 ## Contributing
 
-See [contribution guidelines](../CONTRIBUTING.md).
+See [contribution guidelines](../contributing.md).

@@ -31,14 +31,14 @@
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>Birthday</string>
+	<string>Time</string>
 	<key>objects</key>
 	<array>
 		<dict>
 			<key>config</key>
 			<dict>
 				<key>triggerid</key>
-				<string>show birthday</string>
+				<string>show age</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.trigger.external</string>
@@ -63,7 +63,7 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>keyword</key>
-				<string>birthday</string>
+				<string>age</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -81,9 +81,9 @@
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>How much time passed since your birthday?</string>
+				<string>Time passed since your birthday</string>
 				<key>title</key>
-				<string>Birthday</string>
+				<string>Age</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -187,6 +187,55 @@ fi</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>until</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Loading...</string>
+				<key>script</key>
+				<string>./birthday "$1"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Time until end of week/month/year</string>
+				<key>title</key>
+				<string>Until</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>FC05A1F2-7AE8-4CE5-AEBF-BA1AE30EA932</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string>You have to enter Date of Birth as variable in the right panel. 
@@ -223,11 +272,20 @@ Post any issues and feature requests you have there. 💜</string>
 		<key>EA32160F-6A33-4317-9262-D5BD565E6F46</key>
 		<dict>
 			<key>note</key>
-			<string>See time passed since your birthday</string>
+			<string>Time passed since your birthday</string>
 			<key>xpos</key>
 			<integer>170</integer>
 			<key>ypos</key>
 			<integer>30</integer>
+		</dict>
+		<key>FC05A1F2-7AE8-4CE5-AEBF-BA1AE30EA932</key>
+		<dict>
+			<key>note</key>
+			<string>Time until end of week/month/year</string>
+			<key>xpos</key>
+			<integer>175</integer>
+			<key>ypos</key>
+			<integer>280</integer>
 		</dict>
 	</dict>
 	<key>variables</key>

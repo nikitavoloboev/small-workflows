@@ -10,4 +10,4 @@ I use this workflow to quickly copy useful premade objects to my workflows.
 
 ## Contributing
 
-See [contribution guidelines](../CONTRIBUTING.md).
+See [contribution guidelines](../contributing.md).

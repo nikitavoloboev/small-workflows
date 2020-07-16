@@ -50,6 +50,10 @@ You can take some inspiration or ideas from these workflows if you wish.
 
 - [Manage notes](https://github.com/nikitavoloboev/small-workflows/blob/master/personal/Manage%20notes.alfredworkflow?raw=true) - I use it to manage editing and extending my [wiki](https://github.com/nikitavoloboev/knowledge).
 
+## Fixing permission issues
+
+Some workflows here are written with Go. See [here](https://github.com/deanishe/awgo/wiki/Catalina) for instructions on fixing permissions in macOS refusing to run Go binary.
+
 ## Contributing
 
 See [contribution guidelines](contributing.md).
